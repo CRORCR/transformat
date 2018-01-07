@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;oldboy&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../edit" />
+      <root url="file://$PROJECT_DIR$/../gohelloworld" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../edit" />
+      <root url="file://$PROJECT_DIR$/../gohelloworld" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
