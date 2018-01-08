@@ -5,34 +5,42 @@ import (
 )
 
 const (
-	HongMing = 1 << 0 //1
-	DaRen    = 1 << 1 //2
-	Vip      = 1 << 2 //4
+	HongMing = 1 << 0
+	DaRen    = 1 << 1
+	Vip      = 1 << 2
 )
 
 type User struct {
-	Name string //姓名
-	flag uint8  //等级标签
+	name string
+	flag uint8
 }
 
-//设置等级标签,如果为true就是设置,false就是取消标签
-
-func SetFlag(u User, isSet bool, flag uint8) User {
-	if isSet {
-		u.flag = u.flag | flag
+func set_flag(user User, isSet bool, flag uint8) User {
+	if isSet == true {
+		user.flag = user.flag | flag
 	} else {
-		u.flag = u.flag ^ flag
+		user.flag = user.flag ^ flag
 	}
-	return u
+	return user
 }
 
-func is_flag(u User, flag uint8) bool {
-	f := u.flag & flag
-	return f == 1
+func is_set_flag(user User, flag uint8) bool {
+	result := user.flag & flag
+	return result == flag
 }
 
 func main() {
-	user := User{"李长全", 0}
-	user = SetFlag(user, true, 1)
-	fmt.Println(user)
+	var user User
+	user.name = "test01"
+	user.flag = 0
+
+	user = set_flag(user, true, DaRen)
+	result := is_set_flag(user, DaRen)
+	fmt.Println(user.flag)
+	fmt.Println(DaRen)
+	fmt.Printf("user is DaRen:%t\n", result)
+	result = is_set_flag(user, HongMing)
+	fmt.Println(user.flag)
+	fmt.Println(HongMing)
+	fmt.Printf("user is hongming:%t\n", result)
 }
