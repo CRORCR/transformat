@@ -17,9 +17,6 @@ func main() {
 }
 
 func isNarcissistic(n int) bool {
-	if n < 100 || n > 999 {
-		return false
-	}
 	//得出个位  十位  百位数字
 	i, j, k := float64(n/100), float64(n/10%10), float64(n%10)
 	//求和,等于这个三位数
