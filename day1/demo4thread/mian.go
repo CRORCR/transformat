@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//启动一个线程使用go关键字
 func getSing(a int) {
 	for i := 0; i < a; i++ {
 		if i%2 == 1 {
