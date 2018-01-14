@@ -39,7 +39,7 @@ func test2() {
 //var a [3] int = [3]int{1,2,3,}
 //var b = [...]int{4,5,6}
 // c := [...]int{1,2,3}   最常用
-//如果给定了长度,元素不够,补充默认值
+//如果给定了长度,元素不够,补充默认值0
 // 也可以给定角标赋值
 //var d [5]string = [5]string{1:"abc", 4:"efg"}
 func test3() {
@@ -77,16 +77,17 @@ func genRand() {
 	var a [10]int
 	for i := 0; i < len(a); i++ {
 		//赋值
-		a[i] = rand.Int()
+		a[i] = rand.Int() //int范围内的值
+		//a[i] = rand.Intn(100)//100以内的值
 	}
-
+	//遍历输出随机数
 	for i := 0; i < len(a); i++ {
-		//取下标=i的元素的值
 		fmt.Printf("%d\n", a[i])
 	}
 }
 
 func genRandStr() {
+	//数组可存储十个字符串
 	var a [10]string
 	var b string = "0123456789"
 	//var runeArr = []rune(b)
