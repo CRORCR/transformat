@@ -17,7 +17,7 @@ func main() {
 }
 
 func isNarcissistic(n int) bool {
-	//得出个位  十位  百位数字
+	//得出百位 十位 个位  数字
 	i, j, k := float64(n/100), float64(n/10%10), float64(n%10)
 	//求和,等于这个三位数
 	if math.Pow(i, 3)+math.Pow(j, 3)+math.Pow(k, 3) == float64(n) {
