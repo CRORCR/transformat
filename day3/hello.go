@@ -3,15 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	//test1()
-	test2()
+	test1()
+	//test2()
 }
 
 //9*9乘法表
 func test1() {
 	for i := 1; i <= 9; i++ {
 		for j := 1; j <= i; j++ {
-			fmt.Printf("%d x %d = %d  ", j, i, i*j)
+			fmt.Printf("%d x %d = %d	", j, i, i*j)
 		}
 		fmt.Println()
 	}

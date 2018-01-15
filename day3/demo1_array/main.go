@@ -87,18 +87,20 @@ func genRand() {
 }
 
 func genRandStr() {
-	//数组可存储十个字符串
-	var a [10]string
-	var b string = "0123456789"
-	//var runeArr = []rune(b)
-	for i := 0; i < 10; i++ {
-		var str string
-		for j := 0; j < 4; j++ {
-			index := rand.Intn(len(b))
-			//格式化并返回格式化后的字符串
-			str = fmt.Sprintf("%s%c", str, b[index])
+	var arr = [10]string{}
+	count := "helloworld"
+	for i := 0; i < len(count); i++ {
+		index := rand.Intn(len(count))
+		//str := fmt.Sprintf("%s", count[index])
+		str := fmt.Sprintf("%s", string(count[index]))
+		if i == 10 {
+			break
 		}
-		a[i] = str
-		fmt.Printf("a[%d]=%s\n", i, a[i])
+		arr[i] = str
+
 	}
+	for _, v := range arr {
+		fmt.Println(v)
+	}
+	fmt.Println(len(arr))
 }
