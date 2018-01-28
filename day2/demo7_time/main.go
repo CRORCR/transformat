@@ -11,7 +11,9 @@ const (
 )
 
 func main() {
+	//当前时间
 	now := time.Now()
+	//时间戳
 	second := now.Unix()
 	//2018-01-08 22:46:42.3452308 +0800 CST m=+0.011000601
 	fmt.Println(now)

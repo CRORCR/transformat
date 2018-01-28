@@ -8,12 +8,12 @@ import (
 
 func main() {
 	//计算存在一个三位数,每一位的三次方,加起来等于这个数
-	//for i := 100; i < 999; i++ {
-	//	if isNarcissistic(i) {
-	//		fmt.Println(i)
-	//	}
-	//}
-	demo()
+	for i := 100; i < 999; i++ {
+		if isNarcissistic(i) {
+			fmt.Println(i)
+		}
+	}
+	//demo()
 }
 
 func isNarcissistic(n int) bool {
