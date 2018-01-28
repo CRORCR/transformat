@@ -6,11 +6,22 @@ import (
 )
 
 func main() {
-	//获取主机名,返回字符串和error信息
-	name, err := os.Hostname()
-	fmt.Printf("%s %v\n", name, err) //SC-HFJS09241601 <nil>
+	getUser()
+	getPath()
+}
 
-	//获得环境变量的PATH信息
-	val := os.Getenv("PATH")
-	fmt.Printf("%s\n", val)
+//获取主机名
+func getUser() {
+	hostName, err := os.Hostname()
+	if err != nil {
+		fmt.Printf("获取主机名有误,错误:%v \n", err)
+	}
+	fmt.Printf("主机名为:%s \n", hostName)
+
+}
+
+//获取环境变量path
+func getPath() {
+	path := os.Getenv("PATH")
+	fmt.Printf("path:%s \n", path)
 }
