@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"oldboy/day1/demo1calc"
+	"transformat/day1/demo1calc"
 )
 
 func main() {
