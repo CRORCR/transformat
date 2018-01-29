@@ -31,7 +31,7 @@ func test2() {
 	fmt.Printf("b=%#v, len(b) = %d, cap(b)=%d\n", b, len(b), cap(b))
 }
 
-//append 添加切片  不能添加数组
+//append 添加
 func test3() {
 	a := make([]int, 5)
 	b := []int{1, 2}
@@ -40,6 +40,7 @@ func test3() {
 	fmt.Println(b)
 }
 
+//修改字符串的值 转为byte数组--修改--转为string
 func test4() {
 	//定义字符串
 	str := "hello world"
