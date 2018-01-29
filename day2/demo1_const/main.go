@@ -33,4 +33,3 @@ func main() {
 	fmt.Println(e2) //7
 	fmt.Println(e3) //8
 }
-

@@ -22,7 +22,7 @@ func hello() (numList []int) {
 		//十位
 		shi := float64(i / 10 % 10) // %取小数点后面值
 		//百位
-		bai := float64(i / 100) // /取小数点前面值
+		bai := float64(i / 100) //  / 取小数点前面值
 
 		if math.Pow(ge, 3)+math.Pow(shi, 3)+math.Pow(bai, 3) == float64(i) {
 			numList = append(numList, i)
