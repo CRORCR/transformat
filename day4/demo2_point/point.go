@@ -3,58 +3,82 @@ package main
 import "fmt"
 
 func main() {
-	//test1()
+	demo1()
 	//test2()
-	test3()
-
+	//test3()
+	//test4()
+	//test5()
 }
-
-func test1() {
-	a := 10
+func demo1() {
+	a := 100
 	var p *int
+	fmt.Printf("%p \n", &p) //地址
+	fmt.Printf("%p \n", p)  //p地址,指针地址0x0
+	fmt.Printf("%d \n", a)  //a值
+	fmt.Printf("%p \n", &a) //a地址
+
 	p = &a
-	fmt.Printf("%p \n", &p) //输出变量p的地址
-	fmt.Printf("%p", p)     //输出p存的指针地址
-
-	fmt.Printf("%p \n", &a)
-	fmt.Printf("%p", a)
-}
-
-func modify(a *int) {
-	*a = 100
+	fmt.Printf("%d\n", *p) //100
+	*p = 200
+	fmt.Println(a, *p) //200 200
 }
 
 func test2() {
-	var b int = 1
-	var p *int
-	p = &b
-	modify(p)      //和modify(&b) 效果一样
-	fmt.Println(b) //100
-}
 
-func test3() {
-
-	///p 默认初始化nil
+	//p 默认初始化nil
 	var p *int
 	var b int
 	p = &b
 	*p = 200 //b = 200
 
 	if p == &b {
-		fmt.Printf("equal\n")
+		fmt.Printf("equal\n") //equals
 	}
 
-	fmt.Printf("%p %p %p\n", p, &b, &p)
+	fmt.Printf("%p %p %p\n", p, &b, &p) //b地址  b地址 p地址
 
-	//使用new创建,默认返回地址值
 	p = new(int)
 	*p = 1000
-	fmt.Printf("%d\n", *p)
-	fmt.Printf("%p %p %p\n", p, &b, &p)
+	fmt.Printf("%d\n", *p)              //1000
+	fmt.Printf("%p %p %p\n", p, &b, &p) //new的地址 // b地址 p地址
 
 	if p == &b {
 		fmt.Printf("equal")
 	}
+}
 
-	//指针类型的变量初始化：1. 使用其他变量地址给它赋值。 2. 使用new分配
+func test3() {
+	var p *string = new(string)
+	*p = "hello"
+	fmt.Printf("%p \n", p)  //0xc04203e1b0
+	fmt.Printf("%p \n", &p) //0xc042068018
+
+	var s string = "hello"
+	p = &s
+	fmt.Printf("%s \n", *p) //hello
+	fmt.Printf("%p \n", p)  //0xc04203e1b0
+	fmt.Printf("%p \n", &p) //0xc042068018
+}
+
+func test4() {
+	var a []int = make([]int, 10)
+	a[0] = 100
+	fmt.Println(a) //[100 0 0 0 0 0 0 0 0 0]
+
+	var p *[]int = new([]int)
+	(*p) = make([]int, 10)
+	(*p)[0] = 100
+	fmt.Println(p) //&[100 0 0 0 0 0 0 0 0 0]
+
+	p = &a
+	(*p)[0] = 1000
+	fmt.Println(a) //[1000 0 0 0 0 0 0 0 0 0]
+}
+
+//切片是指向数组的,切片值改变,对应数组值也会改变
+func test5() {
+	var arr [5]int = [5]int{1, 2, 3, 4, 5}
+	b := arr[:]
+	b[0] = 100
+	fmt.Println(arr, b)
 }
