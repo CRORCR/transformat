@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	conn, err := net.Dial("tcp", "www.baidu.com:80")
 	if err != nil {
 		fmt.Printf("err is dial err:%v", err)
