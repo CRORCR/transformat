@@ -21,14 +21,14 @@ func main() {
 	}
 	fmt.Println("connection success")
 	//1.执行插入操作
-	//db.Exec("insert into user_info (user_name,sex,email) values (?,?,?)","user01","男","112037@qq.com")
+	db.Exec("insert into user_info (user_name,sex,email) values (?,?,?)","user01","男","112037@qq.com")
 	//2.执行查询  get查询一条记录  select 查询集合
 	var user UserInfo
 	db.Get(&user,"select user_id,user_name,sex,email from user_info where user_id=?",10)
 	fmt.Println(user)
 
 	var userList []*UserInfo
-	db.Select(&userList,"select user_id,user_name,sex,email from user_info where user_id>0")
+	db.Select(&userList,"select user_id,user_name,sex,email from user_info where user_id>?",0)
 	for _,v :=range userList{
 		fmt.Println(v)
 	}
