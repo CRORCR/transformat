@@ -49,6 +49,29 @@ func long2short(w http.ResponseWriter,r *http.Request){
 	reposneSuccess(w,resp)
 }
 
+func short2long(w http.ResponseWriter,r *http.Request){
+	data,err:=ioutil.ReadAll(r.Body)
+	if err!=nil{
+		fmt.Println("read request is failed")
+		reposneErr(w,1001)
+		return
+	}
+	var req model.Short2LongRequest
+	err=json.Unmarshal(data,&req)
+	if err!=nil{
+		fmt.Println("unmarshal is failed",err)
+		reposneErr(w,1002)
+		return
+	}
+	resp,err:=logic.Short2Long(&req)
+	if err!=nil{
+		fmt.Println("reposne is failed",err)
+		reposneErr(w,1002)
+		return
+	}
+	reposneSuccess(w,resp)
+}
+
 func reposneErr(w http.ResponseWriter,code int){
 	var reponse model.Header
 	reponse.Code=code

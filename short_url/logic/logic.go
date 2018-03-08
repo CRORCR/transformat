@@ -64,6 +64,24 @@ func Long2Short(req *model.Long2ShortRequest)(reponse *model.Long2ShortResponse,
 	return
 }
 
+func Short2Long(req *model.Short2LongRequest)(reponse *model.Short2LongResponse,err error){
+	reponse=&model.Short2LongResponse{}
+	var short ShortUrl
+	//数据库根据短地址查找
+	err=Db.Get(&short,"select id,short_url,origin_url,hash_code from short_url where short_url=?",req.ShortUrl)
+	//查不到,跳转404
+	if err==sql.ErrNoRows{
+		reponse.Code=404
+		return
+	}
+	if err!=nil {
+		reponse.Code = 500 //内部错误
+		return
+	}
+	reponse.OriginUrl=short.OriginUrl
+	return
+}
+
 //生成短url
 func generateShortUrl(req *model.Long2ShortRequest,hashCode string)(shortUrl string,err error){
 
