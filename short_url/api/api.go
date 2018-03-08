@@ -16,6 +16,11 @@ const(
 )
 
 func main() {
+	err:=logic.InitDb("root:root@tcp(127.0.0.1:3306)/short_url?parseTime=true")
+	if err!=nil{
+		fmt.Println("初始化失败",err)
+		return
+	}
 	http.HandleFunc("/trans/long2short",long2short)
 	http.ListenAndServe(":8080",nil)
 }
@@ -30,36 +35,32 @@ func long2short(w http.ResponseWriter,r *http.Request){
 	var req model.Long2ShortRequest
 	err=json.Unmarshal(data,&req)
 	if err!=nil{
-		fmt.Println("unmarshal is failed")
+		fmt.Println("unmarshal is failed",err)
 		reposneErr(w,1002)
 		return
 	}
 	resp,err:=logic.Long2Short(&req)
 	if err!=nil{
-		fmt.Println("reposne is failed")
+		fmt.Println("reposne is failed",err)
 		reposneErr(w,1002)
 		return
 	}
-	reposneSuccess(w,0,resp)
+	reposneSuccess(w,resp)
 }
 
 func reposneErr(w http.ResponseWriter,code int){
-	m:=make(map[string]interface{},10)
-	m["code"]=code
-	m["message"]=getMessage(code)
-	data,err:=json.Marshal(m)
+	var reponse model.Header
+	reponse.Code=code
+	reponse.Message=getMessage(code)
+	data,err:=json.Marshal(reponse)
 	if err!=nil{
 		w.Write([]byte("{\"code\":500, \"message\": \"server busy\"}"))
 		return
 	}
 	w.Write(data)
 }
-func reposneSuccess(w http.ResponseWriter,code int,data interface{}){
-	m:=make(map[string]interface{},10)
-	m["code"]=code
-	m["message"]=getMessage(code)
-	m["data"]=data
-	dataByte,err:=json.Marshal(m)
+func reposneSuccess(w http.ResponseWriter,data interface{}){
+	dataByte,err:=json.Marshal(data)
 	if err!=nil{
 		s:="{\"code\":500, \"message\": \"server busy\"}"
 		w.Write([]byte(s))
