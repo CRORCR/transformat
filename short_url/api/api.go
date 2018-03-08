@@ -22,6 +22,7 @@ func main() {
 		return
 	}
 	http.HandleFunc("/trans/long2short",long2short)
+	http.HandleFunc("/trans/short2long",short2long)
 	http.ListenAndServe(":8080",nil)
 }
 

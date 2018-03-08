@@ -67,9 +67,11 @@ func Long2Short(req *model.Long2ShortRequest)(reponse *model.Long2ShortResponse,
 //生成短url
 func generateShortUrl(req *model.Long2ShortRequest,hashCode string)(shortUrl string,err error){
 
+	conn,_:=Db.Begin()
 	//数据库插入一条记录
-	result,err:=Db.Exec("insert into short_url (origin_url,hash_code) values(?,?)",req.OriginUrl,hashCode)
+	result,err:=conn.Exec("insert into short_url (origin_url,hash_code) values(?,?)",req.OriginUrl,hashCode)
 	if err!=nil{
+		conn.Rollback()
 		return
 	}
 	//得到自增的id,转成62进制,这样 0-9a-zA-Z 这62个字符都利用上了,节约空间
@@ -77,7 +79,8 @@ func generateShortUrl(req *model.Long2ShortRequest,hashCode string)(shortUrl str
 	shortUrl=transTo62(insertId)
 
 	//存储到数据库,并返回
-	_,err=Db.Exec("update short_url set short_url=? where id=?",shortUrl,insertId)
+	_,err=conn.Exec("update short_url set short_url=? where id=?",shortUrl,insertId)
+	conn.Commit()
 	return
 }
 
