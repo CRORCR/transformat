@@ -19,7 +19,7 @@ func main() {
 	//最后 关闭连接
 	defer client.Close()
 
-	//设置超时 1秒
+	//设置超时 1秒  如果是Nanosecond 1纳秒,那么返回就会报超时
 	ctx,cancel:=context.WithTimeout(context.Background(),time.Second)
 	_,err=client.Put(ctx,"one","1")
 	if err!=nil{
@@ -30,6 +30,7 @@ func main() {
 
 	//获取值
 	ctx,cancel=context.WithTimeout(context.Background(),time.Second)
+	//可以轮询监控etcd 一秒get一次
 	resp,err:=client.Get(ctx,"one")
 	if err!=nil{
 		fmt.Println("获取one节点错误")
