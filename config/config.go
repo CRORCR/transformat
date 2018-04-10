@@ -19,7 +19,7 @@ type Config struct{
 	notifyList []Notify
 }
 
-func NewConfigG(filename string)(config *Config,err error){
+func NewConfig(filename string)(config *Config,err error){
 	config=&Config{fileName:filename,data:make(map[string]string,1024),}
 	m,err:=config.parse()
 	if err!=nil{
