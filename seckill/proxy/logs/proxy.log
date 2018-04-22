@@ -1,0 +1,33 @@
+2018/04/20 22:20:46.967 [D] [proc.go:195] init config and log success
+2018/04/20 22:20:46.967 [D] [proc.go:195] 配置文件值为:model.ModelConf{RedisAddr:"localhost:6379", RedisPasswd:"", EtcdAddr:"localhost:2379", EtcdProductKey:"/seckill/product/conf", SendQueueName:"redis_send_queue", RecvQueueName:"redis_send_queue", SendQueueThreadNum:64, RecvQueueThreadNum:64, LogPath:"./logs/proxy.log", LogLevel:"debug"}
+2018/04/20 22:20:46.976 [D] [service.go:29] connect to redis succ
+2018/04/20 22:20:48.309 [I] [asm_amd64.s:2337] http server Running on http://127.0.0.1:9090
+2018/04/20 22:20:50.090 [D] [asm_amd64.s:509] secKill
+2018/04/20 22:20:50.091 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 10:20:50] "GET /sec_info/?product_id=1 HTTP/1.1 200 0" 0.001000  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+
+2018/04/20 22:20:50.203 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 10:20:50] "GET /favicon.ico HTTP/1.1 404 0" 0.001000 http://localhost:9090/sec_info/?product_id=1 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+
+2018/04/20 22:20:55.054 [D] [asm_amd64.s:509] secKill
+2018/04/20 22:20:55.054 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 10:20:55] "GET /sec_info/?product_id=0 HTTP/1.1 200 0" 0.000000  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+
+2018/04/20 22:22:31.404 [D] [proc.go:195] init config and log success
+2018/04/20 22:22:31.404 [D] [proc.go:195] 配置文件值为:model.ModelConf{RedisAddr:"localhost:6379", RedisPasswd:"", EtcdAddr:"localhost:2379", EtcdProductKey:"/seckill/product/conf", SendQueueName:"redis_send_queue", RecvQueueName:"redis_send_queue", SendQueueThreadNum:64, RecvQueueThreadNum:64, LogPath:"./logs/proxy.log", LogLevel:"debug"}
+2018/04/20 22:22:31.414 [D] [service.go:29] connect to redis succ
+2018/04/20 22:22:32.570 [I] [asm_amd64.s:2337] http server Running on http://127.0.0.1:9090
+2018/04/20 22:22:37.091 [D] [asm_amd64.s:509] secKill
+2018/04/20 22:22:37.092 [E] [asm_amd64.s:509] invalid product id:0
+2018/04/20 22:22:37.093 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 10:22:37] "GET /sec_info/?product_id=0 HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+
+2018/04/20 22:22:39.479 [D] [asm_amd64.s:509] secKill
+2018/04/20 22:22:39.480 [E] [asm_amd64.s:509] service busy,product id:1, err:product:%!s(int=1) not found activity,err:<nil>
+2018/04/20 22:22:39.481 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 10:22:39] "GET /sec_info/?product_id=1 HTTP/1.1 200 0" 0.002000  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+
+2018/04/20 22:23:03.675 [D] [proc.go:195] init config and log success
+2018/04/20 22:23:03.675 [D] [proc.go:195] 配置文件值为:model.ModelConf{RedisAddr:"localhost:6379", RedisPasswd:"", EtcdAddr:"localhost:2379", EtcdProductKey:"/seckill/product/conf", SendQueueName:"redis_send_queue", RecvQueueName:"redis_send_queue", SendQueueThreadNum:64, RecvQueueThreadNum:64, LogPath:"./logs/proxy.log", LogLevel:"debug"}
+2018/04/20 22:23:03.687 [D] [service.go:30] connect to redis succ
+2018/04/20 23:02:43.386 [D] [asm_amd64.s:2337] PUT "/seckill/product/conf" : "\n[{\n\t\"product_id\":1,\n\t\"start_time\":1523698100,\n\t\"end_time\": 1523709100,\n\t\"status\": 3\n}]"
+
+2018/04/20 23:02:43.556 [I] [asm_amd64.s:2337] http server Running on http://127.0.0.1:9090
+2018/04/20 23:04:37.526 [D] [asm_amd64.s:509] secKill
+2018/04/20 23:04:37.527 [D] [server.go:2619] 127.0.0.1 - - [20/Apr/2018 11:04:37] "GET /sec_info/?product_id=1 HTTP/1.1 200 0" 0.001000  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+

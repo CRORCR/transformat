@@ -8,7 +8,6 @@ import (
 )
 
 var w sync.WaitGroup
-
 var count int32
 
 //原子操作
@@ -30,3 +29,5 @@ func main() {
 	fmt.Println((end-start)/1000/1000)
 	fmt.Println(count)
 }
+
+

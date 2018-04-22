@@ -8,10 +8,9 @@ import (
 
 //互斥锁
 var lock sync.Mutex
-
 var count int
-
 var w sync.WaitGroup
+
 func main() {
 	w.Add(1)
 	go demo1()
@@ -36,3 +35,5 @@ func demo2(){
 		lock.Unlock()
 	}
 }
+
+
