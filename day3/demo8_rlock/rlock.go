@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"sync"
+	"sync/atomic"
 	"time"
 )
 var rwLock sync.RWMutex
@@ -14,6 +15,8 @@ func main() {
 func testRWLock() {
 	var a map[int]int
 	a = make(map[int]int, 5)
+	//计数,读取了多少次,采用原子操作
+	var count int32
 	a[8] = 10
 	a[3] = 10
 	a[2] = 10
@@ -34,9 +37,11 @@ func testRWLock() {
 				rwLock.RLock()
 				fmt.Println(a)
 				rwLock.RUnlock()
+				atomic.AddInt32(&count, 1)
 			}
 		}(a)
 	}
 	time.Sleep(time.Second * 3)
+	fmt.Println(atomic.LoadInt32(&count))
 }
 
