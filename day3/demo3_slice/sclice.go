@@ -10,7 +10,8 @@ func main() {
 	//testArray()
 	//copyArray()
 	//testModifyString()
-	sortTest()
+	//sortInt()
+	sortStr()
 }
 
 //1.切片指向数组第一个元素地址
@@ -67,10 +68,33 @@ func testModifyString() {
 //sort.SearchInts(a []int, b int) 从数组a中查找b，前提是a必须有序
 //sort.SearchFloats(a []float64, b float64) 从数组a中查找b，前提是a必须有序
 //sort.SearchStrings(a []string, b string) 从数组a中查找b，前提是a必须有序
-func sortTest() {
+
+//对整数int排序
+func sortInt() {
+	//1.切片排序
 	a := []int{5, 4, 3, 2, 1}
 	sort.Ints(a)
 	fmt.Println(a)
+	//2.数组排序
+	var b = [...]int{5, 4, 3, 2, 1}
+	sort.Ints(b[:])
+	fmt.Println(b)
+}
+
+//对string排序
+func sortStr() {
+	var a = [...]string{"abc", "efg", "b", "A", "eeee"}
+	sort.Strings(a[:])
+	fmt.Println(a)
+}
+
+//有序数组,查找元素
+func testIntSearch() {
+	var a = [...]int{1, 8, 38, 2, 348, 484}
+	sort.Ints(a[:])
+	//需要切片作为元素
+	index := sort.SearchInts(a[:], 348)
+	fmt.Println(index)
 }
 
 //切片：切片是数组的一个引用(长度可变)，因此切片是引用类型
