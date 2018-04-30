@@ -1,12 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	//testSlice()
 	//testArray()
 	//copyArray()
-	testModifyString()
+	//testModifyString()
+	sortTest()
 }
 
 //1.切片指向数组第一个元素地址
@@ -57,3 +61,22 @@ func testModifyString() {
 	str = string(s)
 	fmt.Println(str)
 }
+
+//5.排序
+//sort.Ints对整数进行排序， sort.Strings对字符串进行排序, sort.Float64s对浮点数进行排序
+//sort.SearchInts(a []int, b int) 从数组a中查找b，前提是a必须有序
+//sort.SearchFloats(a []float64, b float64) 从数组a中查找b，前提是a必须有序
+//sort.SearchStrings(a []string, b string) 从数组a中查找b，前提是a必须有序
+func sortTest() {
+	a := []int{5, 4, 3, 2, 1}
+	sort.Ints(a)
+	fmt.Println(a)
+}
+
+//切片：切片是数组的一个引用(长度可变)，因此切片是引用类型
+//如果要切片最后一个元素去掉，可以这么写：
+//Slice = slice[:len(slice)-1]
+//通过make创建切片
+//var slice []type = make([]type, len)
+//用append内置函数操作切片(如果添加切片,需要展开)
+//拷贝切片copy(s2, s1),长度越界,自动忽略

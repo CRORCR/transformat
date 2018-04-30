@@ -34,7 +34,7 @@ func pathProcess(path string) {
 	fmt.Println(result)
 }
 
-func strStudy(){
+func strStudy() {
 	//fmt.Println(strings.TrimSpace(" sksk ")) //-->sksk 中间不管
 	//fmt.Println(strings.Trim("abbacba", "ab"))//-->c ab任意组合都会去除 慎用
 	//fmt.Println(strings.TrimLeft("b c ","b"))//--> c 去除串首指定字符
@@ -43,7 +43,7 @@ func strStudy(){
 	//fmt.Println(strings.Split("abc,cde,edk", ","))//-->[abc cde edk]
 	//fmt.Println(strings.Join([]string{"abc", "cde", "edk"}, ","))//-->abc,cde,edk
 	//fmt.Println(strings.Replace("str", "s","3",0))//-->str 替换多少次
-	fmt.Println(strings.Repeat("abcdefabcdef",2)) //重复返回多少次
+	fmt.Println(strings.Repeat("abcdefabcdef", 2)) //重复返回多少次
 
 	//str2 := "hello" + "world"
 	//fmt.Printf("str2:%s \n", str2) //hello world
@@ -60,7 +60,7 @@ func strStudy(){
 }
 
 //从终端读取字符串,转为int类型,如果出错就返回
-func conv(){
+func conv() {
 	var str string
 	fmt.Scanf("%s", &str)
 
@@ -73,7 +73,7 @@ func conv(){
 }
 
 //字符串有两种表示形式,"" 这种比较常见,还有一种`` 这种方式换行也会输出,不需要其他连接符
-func out(){
+func out() {
 
 	var str string
 	str = "abc\n"
@@ -90,3 +90,5 @@ func out(){
 	\n`
 	fmt.Printf("%s\n", str2)
 }
+
+//string底层是数组,长度不可变
