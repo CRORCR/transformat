@@ -21,6 +21,7 @@ func test1() {
 	fmt.Println(a) //[100 2 3]
 	fmt.Println(b) //[100 2 3]
 }
+//切片的长度和容量输出
 func test2() {
 	a := make([]int, 5, 10)
 	a[4] = 100
@@ -31,7 +32,7 @@ func test2() {
 	fmt.Printf("b=%#v, len(b) = %d, cap(b)=%d\n", b, len(b), cap(b))
 }
 
-//append 添加
+//append 添加,元素如果是切片,需要展开
 func test3() {
 	a := make([]int, 5)
 	b := []int{1, 2}
