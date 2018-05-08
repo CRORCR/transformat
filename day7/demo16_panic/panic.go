@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"time"
@@ -38,6 +39,9 @@ func Open(filename string) error {
 			createTime: fmt.Sprintf("%v", time.Now()),
 		}
 	}
+
 	defer file.Close()
 	return nil
 }
+
+var myError = errors.New("is my error")
