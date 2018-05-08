@@ -23,7 +23,6 @@ type Student struct {
 func main() {
 	//demo()
 	demo2()
-	//demo3()
 }
 
 func demo() {
@@ -51,24 +50,10 @@ func demo2() {
 	fmt.Printf("%+v \n", s) //{Name:lcq Age:18 t:0 a:{A:0} c:<nil>}
 
 	//测试  struct是值拷贝,如果修改里面指针字段的值,会改变原值吗? -- 会
+	//这里是把地址值给了s2,所以会改变原值
 	//如果没有给c分配内存空间,会报空指针错误
 	s.c = new(int)
 	s2 := s
 	*(s2.c) = 100
 	fmt.Printf("s中c值:%d s2中c值:%d \n", *(s.c), *(s2.c)) //100 100
-}
-
-func demo3() {
-	var p1 *int = new(int)
-	p2 := p1
-	*p2 = 100
-	fmt.Printf("s1=%d\n", *p1) //100
-
-	//new出来的是地址,所以是地址拷贝
-	var p3 = new(Student)
-	(*p3).Age = 100
-	//p4就是指针类型,因为p3是new出来的指针
-	p4 := p3
-	p4.Age = 1000
-	fmt.Printf("p3=%+v\n", *p3) //name=1000
 }

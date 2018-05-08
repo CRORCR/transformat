@@ -19,6 +19,6 @@ func main() {
 	var peo = &People{Sex: "男", s: new(Student)}
 	peo.s.Name = "学生:李长全"
 	peo.s.Age = 16
-	fmt.Printf("%+v \n", peo)                                 //&{Sex:男 s:0xc0420443a0}
-	fmt.Printf("%s,%s,%d \n", peo.Sex, peo.s.Name, peo.s.Age) //男,学生:李长全,16
+	//&{Sex:男 s:0xc0420443a0}
+	fmt.Printf("%+v \n", peo)
 }
