@@ -19,6 +19,8 @@ func main() {
 	//guessNumber()
 	//6.输出指定五星 five stars
 	fiveStars(3)
+	//7.完数
+	perfect()
 }
 
 //1.素数
@@ -130,3 +132,28 @@ func fiveStars(n int){
 		fmt.Println()
 	}
 }
+
+//7.完数
+//一个数如果恰好等于它的因子之和,这个数就称为完数
+//例如:6=1+2+3
+//找出100以内的所有完数
+func perfect(){
+	var n int
+	fmt.Scanf("%d", &n)
+	for i := 1; i < n+1; i++ {
+		if isPerfect(i) {
+			fmt.Println(i)
+		}
+	}
+}
+//能被整除就是因子
+func isPerfect(n int) bool {
+	var sum int = 0
+	for i := 1; i < n; i++ {
+		if n%i == 0 {
+			sum += i
+		}
+	}
+	return n == sum
+}
+

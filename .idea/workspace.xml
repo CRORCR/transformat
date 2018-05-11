@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="panic">
-      <change beforePath="" afterPath="$PROJECT_DIR$/day5/demo1_extendFunc/extendFunc.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day5/demo1_list/list.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day8/demo1_goroute/goroute.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day8/demo2_chanClose/close.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day8/demo2_channel/channel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/day8/demo3_gorouteAndChan/main.go" />
       <change beforePath="" afterPath="$PROJECT_DIR$/selfwork/learn2/main.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day4/demo1_func/func.go" afterPath="$PROJECT_DIR$/day4/demo1_func/func.go" />
-      <change beforePath="$PROJECT_DIR$/day5/demo6_tag/main.go" afterPath="$PROJECT_DIR$/day5/demo6_tag/main.go" />
-      <change beforePath="$PROJECT_DIR$/day9/chat_client/main.go" afterPath="$PROJECT_DIR$/day9/chatRoom/client/main.go" />
-      <change beforePath="$PROJECT_DIR$/day9/chat_server/conn_mgr.go" afterPath="$PROJECT_DIR$/day9/chatRoom/server/conn_mgr.go" />
-      <change beforePath="$PROJECT_DIR$/day9/chat_server/main.go" afterPath="$PROJECT_DIR$/day9/chatRoom/server/main.go" />
-      <change beforePath="$PROJECT_DIR$/day9/chat_server/server.go" afterPath="$PROJECT_DIR$/day9/chatRoom/server/server.go" />
-      <change beforePath="$PROJECT_DIR$/day9/demo1_client/server.go" afterPath="$PROJECT_DIR$/day9/demo1_client/server.go" />
-      <change beforePath="$PROJECT_DIR$/day9/demo2_chat_server/ClientMsg.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day9/demo2_chat_server/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day9/demo2_chat_server/server.go" afterPath="" />
       <change beforePath="$PROJECT_DIR$/selfwork/learn1/main.go" afterPath="$PROJECT_DIR$/selfwork/learn1/main.go" />
       <change beforePath="$PROJECT_DIR$/transformat.iml" afterPath="$PROJECT_DIR$/transformat.iml" />
     </list>
@@ -58,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conn_mgr.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conn_mgr.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day9/chatRoom/server/conn_mgr.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day4/demo1_func/func.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -182,7 +176,6 @@
         <option value="$PROJECT_DIR$/day3/demo6_map/map.go" />
         <option value="$PROJECT_DIR$/day3/demo7_lock/lock.go" />
         <option value="$PROJECT_DIR$/day3/demo8_rlock/rlock.go" />
-        <option value="$PROJECT_DIR$/day4/demo1_func/func.go" />
         <option value="$PROJECT_DIR$/selfwork/learn1/main.go" />
         <option value="$PROJECT_DIR$/selfwork/learn2/main.go" />
         <option value="$PROJECT_DIR$/day5/demo1_list/list.go" />
@@ -207,6 +200,7 @@
         <option value="$PROJECT_DIR$/day9/demo1_client/server.go" />
         <option value="$PROJECT_DIR$/day9/chatRoom/client/main.go" />
         <option value="$PROJECT_DIR$/day9/chatRoom/server/conn_mgr.go" />
+        <option value="$PROJECT_DIR$/day4/demo1_func/func.go" />
       </list>
     </option>
   </component>
@@ -1015,7 +1009,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改包名" />
     <MESSAGE value="练习" />
     <MESSAGE value="day03" />
     <MESSAGE value="函数和指针" />
@@ -1039,6 +1032,7 @@
     <MESSAGE value="rlock" />
     <MESSAGE value="复习" />
     <MESSAGE value="负载均衡" />
+    <MESSAGE value="server" />
     <MESSAGE value="panic" />
     <option name="LAST_COMMIT_MESSAGE" value="panic" />
   </component>
@@ -1076,13 +1070,6 @@
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/demo1_func/func.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1359,6 +1346,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day4/demo1_func/func.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
