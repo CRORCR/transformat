@@ -2,20 +2,16 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 var a int
 
 //可变参数
 func main() {
-<<<<<<< Updated upstream
 	//test1()
 	//test3()
 }
 func test1() {
-=======
->>>>>>> Stashed changes
 	fmt.Println(demo())           //0
 	fmt.Println(demo(1, 2, 3, 4)) //10
 
@@ -28,7 +24,6 @@ func demo(args ...int) (sum int) {
 	}
 	return
 }
-<<<<<<< Updated upstream
 
 //defer
 //defer是在最后执行,return之前执行
@@ -45,5 +40,3 @@ func test3() {
 		return
 	}
 }
-=======
->>>>>>> Stashed changes
