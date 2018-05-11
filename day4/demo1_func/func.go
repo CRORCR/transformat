@@ -7,13 +7,18 @@ import (
 
 var a int
 
+//可变参数
 func main() {
+<<<<<<< Updated upstream
 	//test1()
 	//test3()
 }
 func test1() {
+=======
+>>>>>>> Stashed changes
 	fmt.Println(demo())           //0
 	fmt.Println(demo(1, 2, 3, 4)) //10
+
 }
 
 //多个参数,一般是放在参数列表最后面,多参数包括参数个数为0
@@ -23,6 +28,7 @@ func demo(args ...int) (sum int) {
 	}
 	return
 }
+<<<<<<< Updated upstream
 
 //defer
 //defer是在最后执行,return之前执行
@@ -39,3 +45,5 @@ func test3() {
 		return
 	}
 }
+=======
+>>>>>>> Stashed changes

@@ -39,8 +39,3 @@ func proess(conn net.Conn) {
 		fmt.Println("read:", string(buf))
 	}
 }
-
-
-func demo(){
-
-}
