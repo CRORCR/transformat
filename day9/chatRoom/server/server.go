@@ -5,50 +5,64 @@ import (
 	"errors"
 	"fmt"
 	"net"
-	"transformat/day9/proto"
+	"transformat/day9/chatRoom/proto"
 )
 
 func runServer(l net.Listener) (err error) {
+	fmt.Println("run server succ")
 	for {
-		conn, err := l.Accept()
-		if err != nil {
-			fmt.Printf("connection is failed err:%v \n", err)
-			continue
-		}
+		conn, _ := l.Accept()
+		//有消息,就放入管理消息中
 		clientMgr.newClientChan <- conn
+		//获得请求,启动goroute处理
 		go process(conn)
 	}
-
 }
 
 func process(conn net.Conn) {
+	//关闭连接,并从管理中心map删除当前连接
 	defer func() {
 		clientMgr.closeChan <- conn
 		conn.Close()
 	}()
+
 	for {
-		body, cmd, err := proto.ReadPacket(conn)
+		body, cmd, err :=  proto.ReadPacket(conn)
 		if err != nil {
-			fmt.Printf("read from conn failed err:%v \n", err)
+			fmt.Printf("read from conn failed, err:%v\n", err)
 			return
 		}
+		//处理请求
 		err = processRequest(conn, body, cmd)
 		if err != nil {
-			fmt.Printf("processRequest[%v] failed ,err:%v \n", cmd, err)
+			fmt.Printf("processRequest[%v] failed, err:%v\n", cmd, err)
 			return
 		}
+		/*
+		var buf []byte = make([]byte, 512)
+		n, err := conn.Read(buf)
+		if err != nil {
+			fmt.Printf("read from conn failed, err:%v\n", err)
+			return
+		}
+
+		buf = buf[0:n]
+		clientMgr.addMsg(buf)
+		*/
 	}
 }
 
-func processRequest(conn net.Conn, body []byte, cmd int) (err error) {
+func processRequest(conn net.Conn, body []byte, cmd int32) (err error) {
+	//判断是什么请求
 	switch cmd {
 	case proto.CmdLoginRequest:
 		err = processLogin(conn, body)
-	case proto.CmdReginsterRequest:
+	case proto.CmdRegisterRequest:
 		err = processRegister(conn, body)
 	case proto.CmdSendMessageRequest:
 		err = processMessage(conn, body)
 	default:
+		//不支持的请求
 		fmt.Printf("unsupport cmd[%v] \n", cmd)
 		err = errors.New("unsupport cmd")
 		return
@@ -56,55 +70,62 @@ func processRequest(conn net.Conn, body []byte, cmd int) (err error) {
 	return
 }
 
-func processMessage(conn net.Conn, body []byte) (err error) {
-	var mess proto.MessageRequest
-	err = json.Unmarshal(body, &mess)
-	if err != nil {
-		fmt.Printf("unmrshal failed[%v] \n", err)
-		return
-	}
-	var broad proto.BroadMessage
-	broad.Message = mess.Message
-	broad.Username = mess.UserName
-
-	data, err := json.Marshal(broad)
-	if err != nil {
-		fmt.Printf("marshal is failed err:%v \n", err)
-		return
-	}
-	packet := &proto.Packet{
-		Cmd:  proto.CmdBroadMessage,
-		Body: data,
-	}
-	clientMgr.addMsg(packet)
-	return
-
-	return
-}
-
 func processLogin(conn net.Conn, body []byte) (err error) {
-	var log proto.LoginRequest
-	err = json.Unmarshal(body, &log)
-	if err != nil {
-		fmt.Printf("unmarshal is failed err:%v \n", err)
-		return
-	}
-	var logresp proto.LoginResponse
-	logresp.Error = 100
-	logresp.Message = "username or password not right"
 
-	if log.UserName == "admin" && log.Password == "admin" {
-		logresp.Error = 0
-		logresp.Message = "success"
-	}
-	data, err := json.Marshal(logresp)
+	fmt.Printf("begin process login request\n")
+	var loginRequest proto.LoginRequest
+	//1.反序列化
+	err = json.Unmarshal(body, &loginRequest)
 	if err != nil {
-		fmt.Printf("mrshal is failed ,err:%v \n", err)
+		fmt.Printf("Unmarshal failed[%v]\n", err)
 		return
 	}
-	return proto.WritePacket(conn, proto.CmdLoginReponse, data)
+	fmt.Printf(" process login request：%+v\n", loginRequest)
+	var loginResp proto.LoginResponse
+	loginResp.Errno = 100
+	loginResp.Message = "username or password not right"
+	//2.校验逻辑
+	if loginRequest.Username == "admin" &&loginRequest.Password == "admin" {
+		loginResp.Errno = 0
+		loginResp.Message = "success"
+	}
+	//3.返回回报
+	data, err := json.Marshal(loginResp)
+	if err != nil {
+		fmt.Printf("Marshal failed[%v]\n", err)
+		return
+	}
+	fmt.Printf(" write login response %+v\n", loginResp)
+	//3.写自定义流数据
+	return proto.WritePacket(conn, proto.CmdLoginResponse, data)
 }
 
 func processRegister(conn net.Conn, body []byte) (err error) {
+	//自己实现去
+	return
+}
+
+func processMessage(conn net.Conn, body []byte) (err error) {
+	fmt.Printf("begin process login request\n")
+	var messageReq proto.MessageRequest
+	err = json.Unmarshal(body, &messageReq)
+	if err != nil {
+		fmt.Printf("Unmarshal failed[%v]\n", err)
+		return
+	}
+	var broadMessage proto.BroadMessage
+	broadMessage.Message = messageReq.Message
+	broadMessage.Username = messageReq.Username
+	body, err = json.Marshal(broadMessage)
+	if err != nil {
+		fmt.Printf("marshal failed, err:%v\n", err)
+		return
+	}
+	packet := &proto.Packet {
+		Cmd: proto.CmdBroadMessage,
+		Body: body,
+	}
+	//去广播消息
+	clientMgr.addMsg(packet)
 	return
 }
