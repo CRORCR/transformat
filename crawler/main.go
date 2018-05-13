@@ -29,6 +29,8 @@ func main() {
 	e := determineEncoding(resp.Body)
 	//4.1 gbk读取数据 Decoder解码
 	reader := transform.NewReader(resp.Body, e.NewDecoder())
+	//通用性比较差 硬编码
+	//reader := transform.NewReader(resp.Body, simplifiedchinese.GBK.NewDecoder())
 
 	//4.读取所有数据,并输出
 	all, err := ioutil.ReadAll(reader)
@@ -39,7 +41,8 @@ func main() {
 }
 
 func determineEncoding(r io.Reader) encoding.Encoding {
-	//determine读取1024字节去测试编码,如果直接使用r读取,那这1024读完就丢了,造成数据不完整,所以使用bufio peek读取,返回是新的数组
+	//determine读取1024字节去测试编码,如果直接使用r读取,那这1024读完就丢了,
+	// 造成数据不完整,所以使用bufio peek读取,返回是新的数组
 	bytes, e := bufio.NewReader(r).Peek(1024)
 	if e != nil {
 		panic(e)
