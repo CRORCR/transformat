@@ -15,7 +15,9 @@ func ParseCityList(contents []byte) engine.ParseResult {
 	//对于每一个match(city和url),每一个match中的url生成一个新的request
 	result := engine.ParseResult{} //城市名称作为result
 	for _, v := range all {
+		//存储城市列表到item
 		result.Item = append(result.Item, string(v[2]))
+		//存储所有请求到request
 		result.Request = append(result.Request, engine.Request{
 			Url:       string(v[1]),
 			ParseFunc: engine.NewParse,

@@ -7,7 +7,6 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
-	"io"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -28,9 +27,10 @@ func Fetcher(url string) ([]byte, error) {
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("wrong status code:%d", resp.StatusCode)
 	}
-	e := determineEncoding(resp.Body)
+	newReader := bufio.NewReader(resp.Body)
+	e := determineEncoding(newReader)
 	//4.1 gbk读取数据 Decoder解码
-	reader := transform.NewReader(resp.Body, e.NewDecoder())
+	reader := transform.NewReader(newReader, e.NewDecoder())
 	//通用性比较差 硬编码
 	//reader := transform.NewReader(resp.Body, simplifiedchinese.GBK.NewDecoder())
 
@@ -38,10 +38,10 @@ func Fetcher(url string) ([]byte, error) {
 	return ioutil.ReadAll(reader)
 }
 
-func determineEncoding(r io.Reader) encoding.Encoding {
+func determineEncoding(r *bufio.Reader) encoding.Encoding {
 	//determine读取1024字节去测试编码,如果直接使用r读取,那这1024读完就丢了,
 	// 造成数据不完整,所以使用bufio peek读取,返回是新的数组
-	bytes, e := bufio.NewReader(r).Peek(1024)
+	bytes, e := r.Peek(1024)
 	//如果不知道什么编码,就返回utf8编码
 	if e != nil {
 		log.Printf("fetcher err:%v \n", e)

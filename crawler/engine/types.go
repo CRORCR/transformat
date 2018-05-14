@@ -6,6 +6,7 @@ type Request struct {
 	ParseFunc func([]byte) ParseResult
 }
 
+//返回结果是多个请求和多个item
 type ParseResult struct {
 	Request []Request
 	Item    []interface{}
