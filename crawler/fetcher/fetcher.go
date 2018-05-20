@@ -3,13 +3,14 @@ package fetcher
 import (
 	"bufio"
 	"fmt"
+	"io/ioutil"
+	"log"
+	"net/http"
+
 	"golang.org/x/net/html/charset"
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
-	"io/ioutil"
-	"log"
-	"net/http"
 )
 
 //输入是url 输出是utf8编码的文本
