@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+//客户端
 func main() {
 	res, err := http.Get("http://baidu.com/")
 	if err != nil {

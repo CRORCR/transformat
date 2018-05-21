@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+//服务端
 func main() {
 	http.HandleFunc("/", hello)
 	err := http.ListenAndServe("localhost:8080", nil)

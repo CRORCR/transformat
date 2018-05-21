@@ -10,6 +10,7 @@ var url = []string{
 	"http://taobao.com",
 }
 
+//head一般用来判断url是否存在,判断状态码
 func main() {
 	for _, v := range url {
 		res, err := http.Head(v)
