@@ -7,6 +7,7 @@ import (
 
 var numList []int = make([]int, 10)
 
+//水仙花数
 //计算存在一个三位数,每一位的三次方,加起来等于这个数
 func main() {
 	numList = hello()

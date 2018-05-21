@@ -36,7 +36,6 @@ func reverSlice() {
 //int反转
 func reverInt() {
 	a, b := 1, 2
-	fmt.Println(a, b)
 	a, b = b, a
 	fmt.Println(a, b)
 }

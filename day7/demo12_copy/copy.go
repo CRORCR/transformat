@@ -23,9 +23,4 @@ func copy(a, b string) {
 		fmt.Println("写入文件有误", err)
 	}
 	io.Copy(file, f)
-
-}
-
-func writer() {
-
 }

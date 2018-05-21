@@ -13,7 +13,6 @@ type RandStr struct {
 
 func (r *RandStr) Read(p []byte) (n int, err error) {
 	fmt.Printf("Len(p)=%d\n", len(p))
-
 	source := "abcdefghijk0123456789"
 	for i := 0; i < 32; i++ {
 		index := rand.Intn(len(source))
@@ -30,7 +29,6 @@ func main() {
 		fmt.Println("read error:", err)
 		return
 	}
-
 	fmt.Println("input:", line)
 	//生成一个随机种子,每次都不一样
 	rand.Seed(time.Now().UnixNano())

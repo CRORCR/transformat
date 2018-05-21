@@ -17,6 +17,7 @@ func main() {
 }
 
 func test() {
+	//panic在函数开始就定义好,否则出现panic捕捉不到
 	defer func() {
 		if err := recover(); err != nil {
 			fmt.Println(err)

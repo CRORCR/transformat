@@ -105,7 +105,6 @@ func genRandStr() {
 	for _, v := range arr {
 		fmt.Println(v)
 	}
-	fmt.Println(len(arr))
 }
 
 //1.数组是同一种数据类型的固定长度的序列。

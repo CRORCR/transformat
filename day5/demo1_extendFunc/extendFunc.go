@@ -26,7 +26,7 @@ func (p *Car) Run() {
 }
 
 //实现tostring方法名必须是:String
-func (p *Bike) String()string{
+func (p *Bike) String() string {
 	str := fmt.Sprintf("name=[%s] weight=[%d]", p.name, p.weight)
 	return str
 }
@@ -43,28 +43,12 @@ type Train struct {
 }
 
 func main() {
-	read:=bufio.NewReader(os.Stdin)
-	str,_:=read.ReadString('\n')
-	str=strings.Replace(str,"\n","",-1)
-	result:=strings.Split(str," ")
-	for i:=len(result)-1;i>=0;i--{
-		fmt.Printf("%v ",string(result[i]))
+	read := bufio.NewReader(os.Stdin)
+	str, _ := read.ReadString('\n')
+	str = strings.Replace(str, "\n", "", -1)
+	result := strings.Split(str, " ")
+	for i := len(result) - 1; i >= 0; i-- {
+		fmt.Printf("%v ", string(result[i]))
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

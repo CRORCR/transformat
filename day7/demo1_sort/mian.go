@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"oldboy/day7/demo2_sort"
+	"transformat/day7/demo2_sort"
 )
 
 type Student struct {

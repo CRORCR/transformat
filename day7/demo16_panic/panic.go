@@ -14,12 +14,12 @@ type PathError struct {
 	message    string
 }
 
+var myError = errors.New("is my error")
+
 func (p *PathError) Error() string {
 	return fmt.Sprintf("path=%s op=%s createTime=%s message=%s", p.path,
 		p.op, p.createTime, p.message)
 }
-
-
 
 func main() {
 	err := Open("C:/sdklflakfljdsafjs.txt")
@@ -29,6 +29,7 @@ func main() {
 	default:
 	}
 }
+
 func Open(filename string) error {
 	file, err := os.Open(filename)
 	if err != nil {
@@ -39,9 +40,6 @@ func Open(filename string) error {
 			createTime: fmt.Sprintf("%v", time.Now()),
 		}
 	}
-
 	defer file.Close()
 	return nil
 }
-
-var myError = errors.New("is my error")
