@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo10_basic/calc.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo10_basic/triangle_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo11_length/cpu.out" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo11_length/demo11_length.test.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo11_length/nonrepeating.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo11_length/nonrepeating_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo12_maze/maze.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo12_maze/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo4_struct/struct.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo5_inter/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo5_inter/mock/Retriener.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo6_func/addr/func.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo6_func/fibo/fifi/fblq.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo6_func/fibo/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo7_defer/defer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo7_defer/fibo.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo8_fileserver/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/errwrapper_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/handler.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/web.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fib.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/api/api.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/api/errorCode.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/logic/Book.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/logic/Student.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/BookMgr/logic/init.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day13/demo1_mutex/main.go" afterPath="$PROJECT_DIR$/day13/demo1_mutex/main.go" />
-      <change beforePath="$PROJECT_DIR$/day13/demo1_mutexte/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day13/demo2_rwlock/main.go" afterPath="$PROJECT_DIR$/day13/demo2_rwlock/main.go" />
-      <change beforePath="$PROJECT_DIR$/day13/demo7_tailf/my.log" afterPath="$PROJECT_DIR$/day13/demo7_tailf/my.log" />
-      <change beforePath="$PROJECT_DIR$/selfwork/learn1/main.go" afterPath="$PROJECT_DIR$/selfwork/learn1/main.go" />
-      <change beforePath="$PROJECT_DIR$/selfwork/learn2/main.go" afterPath="$PROJECT_DIR$/selfwork/learn2/main.go" />
-      <change beforePath="$PROJECT_DIR$/selfwork/learn3/learn.go" afterPath="$PROJECT_DIR$/selfwork/learn3/learn.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,52 +40,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="maze.go" pinned="false" current-in-tab="false">
-        <entry file="file://K:/慕课网视频/课件代码/u2pppw/maze/maze.go">
+      <file leaf-file-name="Student.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/Student.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="821">
+              <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding>
-                <element signature="n#!!block;n#readMaze#0" expanded="false" />
-                <element signature="n#!!block;n#at#0" expanded="false" />
-                <element signature="n#!!block;n#walk#0" expanded="false" />
+                <element signature="e#15#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maze.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/demo12_maze/maze.go">
+      <file leaf-file-name="StuMgr.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
               <folding>
-                <element signature="e#14#37#0" expanded="true" />
-                <element signature="n#!!block;n#readMaze#0" expanded="false" />
-                <element signature="n#!!block;n#add#0" expanded="false" />
-                <element signature="n#!!block;n#at#0" expanded="false" />
-                <element signature="n#!!block;n#walk#0" expanded="false" />
+                <element signature="e#15#70#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fib.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fib.txt">
+      <file leaf-file-name="BookMgr.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="310">
+              <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+              <folding>
+                <element signature="e#15#132#0" expanded="true" />
+                <marker date="1527175440612" expanded="true" signature="667:744" ph="select bookI... book" />
+                <marker date="1527175440612" expanded="true" signature="903:963" ph="insert into book... " />
+                <marker date="1527175440612" expanded="true" signature="1048:1103" ph="update book... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorCode.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/BookMgr/api/errorCode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/demo12_maze/readme.txt">
+      <file leaf-file-name="api.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/BookMgr/api/api.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="1085">
+              <caret line="223" column="39" lean-forward="false" selection-start-line="223" selection-start-column="39" selection-end-line="223" selection-end-column="39" />
+              <folding>
+                <element signature="e#14#116#0" expanded="true" />
+                <element signature="n#!!block;n#logHandle#0" expanded="false" />
+                <element signature="n#!!block;n#addBook#0" expanded="false" />
+                <element signature="n#!!block;n#searchBookName#0" expanded="false" />
+                <element signature="n#!!block;n#searchAuthor#0" expanded="false" />
+                <element signature="n#!!block;n#addStudent#0" expanded="false" />
+                <element signature="n#!!block;n#studentBookList#0" expanded="false" />
+                <element signature="n#!!block;n#getTop10#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,13 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day2/demo3_rand/cube.go" />
-        <option value="$PROJECT_DIR$/day2/demo3_rand/main.go" />
-        <option value="$PROJECT_DIR$/day2/demo6_str/rever.go" />
-        <option value="$PROJECT_DIR$/day3/demo1_array/main.go" />
-        <option value="$PROJECT_DIR$/day1/demo4thread/readme.txt" />
-        <option value="$PROJECT_DIR$/day3/demo3_slice/sclice.go" />
-        <option value="$PROJECT_DIR$/basic/demo1_zero/zero.go" />
         <option value="$PROJECT_DIR$/day4/demo3_goto/demo.go" />
         <option value="$PROJECT_DIR$/day4/demo4_panic/panic.go" />
         <option value="$PROJECT_DIR$/day4/demo5_new_make/NewAndMake.go" />
@@ -235,6 +225,13 @@
         <option value="K:/慕课网视频/课件代码/u2pppw/maze/maze.go" />
         <option value="$PROJECT_DIR$/basic/demo12_maze/readme.txt" />
         <option value="$PROJECT_DIR$/basic/demo12_maze/maze.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/logic/init.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/logic/Book.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/logic/Student.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/api/errorCode.go" />
+        <option value="$PROJECT_DIR$/project/BookMgr/api/api.go" />
       </list>
     </option>
   </component>
@@ -244,11 +241,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="450" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -296,6 +293,31 @@
             <path>
               <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
               <item name="transformat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="BookMgr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="BookMgr" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="BookMgr" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1013,7 +1035,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11634349" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11634349" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24792244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967659" sideWeight="0.48802948" order="1" side_tool="false" content_ui="tabs" />
@@ -1150,55 +1172,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day13/mutex/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo1_closure/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo1_context/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo2_timeout/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo2_withvalue/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo3-context/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/demo3_etcd/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day14/demo3_secinfo/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-726">
@@ -1425,6 +1398,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#27#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1439,6 +1415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,6 +1423,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#55#0" expanded="false" />
+            <element signature="n#!!block;n#TestSubstr#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1453,6 +1434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,6 +1442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-421">
           <caret line="67" column="18" lean-forward="false" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,6 +1499,84 @@
         <state relative-caret-position="308">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#139#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/Book.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/Student.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/api/errorCode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#132#0" expanded="true" />
+            <marker date="1527175440612" expanded="true" signature="667:744" ph="select bookI... book" />
+            <marker date="1527175440612" expanded="true" signature="903:963" ph="insert into book... " />
+            <marker date="1527175440612" expanded="true" signature="1048:1103" ph="update book... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/BookMgr/api/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="223" column="39" lean-forward="false" selection-start-line="223" selection-start-column="39" selection-end-line="223" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#116#0" expanded="true" />
+            <element signature="n#!!block;n#logHandle#0" expanded="false" />
+            <element signature="n#!!block;n#addBook#0" expanded="false" />
+            <element signature="n#!!block;n#searchBookName#0" expanded="false" />
+            <element signature="n#!!block;n#searchAuthor#0" expanded="false" />
+            <element signature="n#!!block;n#addStudent#0" expanded="false" />
+            <element signature="n#!!block;n#studentBookList#0" expanded="false" />
+            <element signature="n#!!block;n#getTop10#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
