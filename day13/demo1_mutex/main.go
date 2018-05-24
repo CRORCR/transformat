@@ -5,22 +5,21 @@ import (
 	"sync"
 )
 
-
 //互斥锁
 var lock sync.Mutex
 var count int
 var w sync.WaitGroup
 
 func main() {
-	w.Add(1)
+	w.Add(2)
 	go demo1()
 	go demo2()
 	w.Wait()
 	fmt.Println(count)
 }
 
-func demo1(){
-	for i:=0;i<100;i++{
+func demo1() {
+	for i := 0; i < 10000; i++ {
 		lock.Lock()
 		count++
 		lock.Unlock()
@@ -28,12 +27,11 @@ func demo1(){
 	w.Done()
 }
 
-func demo2(){
-	for i:=0;i<100;i++{
+func demo2() {
+	for i := 0; i < 10000; i++ {
 		lock.Lock()
 		count++
 		lock.Unlock()
 	}
+	w.Done()
 }
-
-

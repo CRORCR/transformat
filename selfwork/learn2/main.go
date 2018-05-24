@@ -13,8 +13,8 @@ func main() {
 	qsort()
 }
 
-func bsort(){
-	a := [...]int{8, 7, 5, 10, 15,4, 3}
+func bsort() {
+	a := [...]int{8, 7, 5, 10, 15, 4, 3}
 	for i := 0; i < len(a); i++ {
 		for j := 1; j < len(a)-i; j++ {
 			if a[j] < a[j-1] {
@@ -24,11 +24,10 @@ func bsort(){
 		}
 	}
 	fmt.Println(a)
-
 }
 
 //2.选择排序,选出最大或者最小的数,然后交换位置
-func ssort(){
+func ssort() {
 	a := [...]int{8, 7, 5, 4, 3, 10, 15}
 	for i := 0; i < len(a); i++ {
 		var min int = i
@@ -44,12 +43,12 @@ func ssort(){
 
 //3.插入排序
 //左边是有序,右边每次过来一个元素都去有序数列进行比较,插入操作
-func isort(){
+func isort() {
 	a := [...]int{8, 7, 5, 4, 3, 10, 15}
-	for i:=1;i<len(a)-1;i++{
-		for j:=i;j>0;j--{
-			if a[j]<a[j-1]{
-				a[j],a[j-1]=a[j-1],a[j]
+	for i := 1; i < len(a)-1; i++ {
+		for j := i; j > 0; j-- {
+			if a[j] < a[j-1] {
+				a[j], a[j-1] = a[j-1], a[j]
 			}
 		}
 	}
@@ -58,11 +57,12 @@ func isort(){
 
 //4.快速排序
 //左边都比自己小,右边都比自己大
-func qsort(){
-	b := [...]int{8,5,4,10,15,7}
+func qsort() {
+	b := [...]int{8, 5, 4, 10, 15, 7}
 	goQsort(b[:], 0, len(b)-1)
 	fmt.Println(b)
 }
+
 //8,5,4,10,15,7
 func goQsort(a []int, left, right int) {
 	if left >= right {
@@ -76,7 +76,7 @@ func goQsort(a []int, left, right int) {
 			//fmt.Printf("i:%d k:%d k+1:%d \n",i,k,k+1)
 			//fmt.Printf("a[k]:%d a[i]:%d a[k+1]:%d \n",a[k],a[i],a[k+1])
 			a[k] = a[i]
-			a[i]=a[k+1]
+			a[i] = a[k+1]
 			k++
 		}
 		fmt.Println(a)

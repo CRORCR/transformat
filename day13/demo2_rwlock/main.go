@@ -1,10 +1,9 @@
 package main
 
-
 import (
-	"time"
-	"sync"
 	"fmt"
+	"sync"
+	"time"
 )
 
 var rwLock sync.RWMutex
@@ -16,10 +15,10 @@ func main() {
 	w.Add(1)
 	start := time.Now().UnixNano()
 	go func() {
-		for i := 0; i < 1000;i++ {
+		for i := 0; i < 1000; i++ {
 			lock.Lock()
 			count++
-			time.Sleep(3*time.Millisecond)
+			time.Sleep(3 * time.Millisecond)
 			lock.Unlock()
 		}
 		w.Done()
@@ -28,10 +27,10 @@ func main() {
 	for i := 0; i < 16; i++ {
 		w.Add(1)
 		go func() {
-			for i := 0; i < 5000;i++ {
+			for i := 0; i < 5000; i++ {
 				//rwLock.RLock()
 				lock.Lock()
-				time.Sleep(1*time.Millisecond)
+				time.Sleep(1 * time.Millisecond)
 				lock.Unlock()
 				//rwLock.RUnlock()
 			}
@@ -40,6 +39,6 @@ func main() {
 	}
 	w.Wait()
 	end := time.Now().UnixNano()
-	fmt.Println((end - start)/1000/1000)
+	fmt.Println((end - start) / 1000 / 1000)
 	//fmt.Println(count)
 }

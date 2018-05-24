@@ -16,17 +16,17 @@ func main() {
 	//4.factorial 阶乘:从1乘以2乘以3乘以4一直乘到所要求的数
 	//factorial()
 	//5.猜数字游戏 guess number
-	//guessNumber()
+	guessNumber()
 	//6.输出指定五星 five stars
-	fiveStars(3)
+	//fiveStars(3)
 	//7.完数
-	perfect()
+	//perfect()
 }
 
 //1.素数
 //除了1和本身,不能被任何数整除
-func prime(){
-	var n , m int
+func prime() {
+	var n, m int
 	fmt.Scanf("%d%d%s", &n, &m)
 	for i := n; i < m; i++ {
 		if isPrime(i) == true {
@@ -57,28 +57,29 @@ func table() {
 }
 
 //3.个位(三次方)+十位(三次方)+百位((三次方))=自己 153=1+5+3
-func narcissus(){
-	var n,m int
+func narcissus() {
+	var n, m int
 	fmt.Scanf("%d,%d", &n, &m)
 	for i := n; i < m; i++ {
 		//个位 十位 百位
 		i := n % 10
 		j := (n / 10) % 10
 		k := (n / 100) % 10
-		sum:=i*i*i + j*j*j + k*k*k
-		if(n == sum){
+		sum := i*i*i + j*j*j + k*k*k
+		if n == sum {
 			fmt.Println(i)
 		}
 	}
 }
 
-func factorial(){
+func factorial() {
 	var n int
 	fmt.Scanf("%d", &n)
 
 	s := sum(n)
 	fmt.Println(s)
 }
+
 //0+ 1*1
 //1+ 1*2
 //4+ 1*3
@@ -96,7 +97,7 @@ func sum(n int) uint64 {
 //5.猜数字游戏
 //有个小bug,会把回车也算做输入,所以每次执行都会校验两遍,
 // 所以scanf 接收的时候,就加上\n,然后忽略就好了
-func guessNumber(){
+func guessNumber() {
 	n := rand.Intn(100)
 	for {
 		var input int
@@ -124,7 +125,7 @@ func guessNumber(){
 //AAA
 //AAAA
 //AAAAA
-func fiveStars(n int){
+func fiveStars(n int) {
 	for i := 1; i <= n; i++ {
 		for j := 0; j < i; j++ {
 			fmt.Printf("A")
@@ -137,7 +138,7 @@ func fiveStars(n int){
 //一个数如果恰好等于它的因子之和,这个数就称为完数
 //例如:6=1+2+3
 //找出100以内的所有完数
-func perfect(){
+func perfect() {
 	var n int
 	fmt.Scanf("%d", &n)
 	for i := 1; i < n+1; i++ {
@@ -146,6 +147,7 @@ func perfect(){
 		}
 	}
 }
+
 //能被整除就是因子
 func isPerfect(n int) bool {
 	var sum int = 0
@@ -156,4 +158,3 @@ func isPerfect(n int) bool {
 	}
 	return n == sum
 }
-
