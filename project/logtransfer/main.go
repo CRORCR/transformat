@@ -25,6 +25,7 @@ func main() {
 		logs.Error("init es failed, err:%v", err)
 		return
 	}
+	//起多少线程去处理
 	err = Run(appConfig.esThreadNum)
 	if err != nil {
 		logs.Error("run es failed, err:%v", err)

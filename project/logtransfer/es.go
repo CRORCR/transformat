@@ -9,7 +9,8 @@ import (
 var clients *elastic.Client
 
 func initES(addr string) (err error) {
-	clients, err = elastic.NewClient(elastic.SetSniff(false), elastic.SetURL("http://192.168.12.3:9200/"))
+	//访问etcd客户端   es只接受json格式   地址:"http://192.168.12.3:9200/"
+	clients, err = elastic.NewClient(elastic.SetSniff(false), elastic.SetURL(addr))
 	if err != nil {
 		logs.Error("connect to es error:%v", err)
 		return
@@ -22,14 +23,17 @@ func initES(addr string) (err error) {
 func Run(threadNum int) (err error) {
 
 	go reload()
-
+	//起一个线程发送就+1,发送完成-1
 	for i := 0; i < threadNum; i++ {
 		waitGroup.Add(1)
 		go sendToEs()
 	}
+	//在这里等待全部发送
 	waitGroup.Wait()
 	return
 }
+
+//获得etcd中tpoic信息,去收集哪些日志
 func reload() {
 	for conf := range GetLogConfChan() {
 		var topicArray []string
@@ -42,6 +46,7 @@ func reload() {
 	}
 }
 
+//topic集合
 func reloadKafka(topicArray []string) {
 	for _, topic := range topicArray {
 		kafka.AddTopic(topic)
@@ -66,5 +71,6 @@ func sendToEs() {
 
 		logs.Debug("send to es succ")
 	}
+	//发送完成,退出
 	waitGroup.Done()
 }

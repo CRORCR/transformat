@@ -13,6 +13,7 @@ var client *clientv3.Client
 var logConfChan chan string
 var waitGroup sync.WaitGroup
 
+//从etcd中获取topic,需要知道本机收集哪些日志
 func initEtcd() (err error) {
 	addr := appConfig.etcdAddr
 	duration := 5 * time.Second
