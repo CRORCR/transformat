@@ -34,6 +34,7 @@ func NewMgr() (bookMgr *BookMgr) {
 
 //添加一本书 从数据库查询,如果没有就更新一条,如果有的话就增加num
 func (bm *BookMgr) AddBook(book *Book) {
+	bm.BookList = append(bm.BookList, book)
 	var bookTmp Book
 	err := Db.Get(&bookTmp, "select bookId,num,name,author,publishDate from book where name=? and author=?", book.Name, book.Author)
 	//如果有错误,直接返回

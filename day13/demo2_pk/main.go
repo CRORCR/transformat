@@ -23,16 +23,16 @@ func main() {
 		}
 		w.Done()
 	}()
-
+	//起16个线程读操作
 	for i := 0; i < 16; i++ {
 		w.Add(1)
 		go func() {
-			for i := 0; i < 5000; i++ {
-				//rwLock.RLock()
-				lock.Lock()
+			for i := 0; i < 3000; i++ {
+				rwLock.RLock()
+				//lock.Lock()
 				time.Sleep(1 * time.Millisecond)
-				lock.Unlock()
-				//rwLock.RUnlock()
+				//lock.Unlock()
+				rwLock.RUnlock()
 			}
 			w.Done()
 		}()
@@ -40,5 +40,4 @@ func main() {
 	w.Wait()
 	end := time.Now().UnixNano()
 	fmt.Println((end - start) / 1000 / 1000)
-	//fmt.Println(count)
 }
