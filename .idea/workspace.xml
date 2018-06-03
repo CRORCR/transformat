@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/day13/demo2_rlock/rlock.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day12/demo1_beego/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day13/demo1_mutex/main.go" afterPath="$PROJECT_DIR$/day13/demo1_mutex/main.go" />
-      <change beforePath="$PROJECT_DIR$/day13/demo2_rwlock/main.go" afterPath="$PROJECT_DIR$/day13/demo2_pk/main.go" />
-      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" />
-      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/init.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/init.go" />
-      <change beforePath="$PROJECT_DIR$/selfwork/learn1/main.go" afterPath="$PROJECT_DIR$/selfwork/learn1/main.go" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" afterPath="$PROJECT_DIR$/config/config.go" />
+      <change beforePath="$PROJECT_DIR$/day13/demo4_config/config.go" afterPath="$PROJECT_DIR$/day13/demo4_config/config.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,34 +34,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day13/demo3_atomic/main.go">
+      <file leaf-file-name="config.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day13/demo1_mutex/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day11/demo2_transaction/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="374">
+              <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
               <folding>
-                <marker date="1520173716508" expanded="true" signature="308:366" ph="insert into user_info... " />
-                <marker date="1520173716508" expanded="true" signature="514:572" ph="insert into user_info... " />
+                <element signature="n#!!block;n#parse#0" expanded="false" />
+                <element signature="n#!!block;n#GetInt#0" expanded="false" />
+                <element signature="n#!!block;n#GetIntDefault#0" expanded="false" />
+                <element signature="n#!!block;n#GetString#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_notify.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config_notify.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day13/demo4_config/config.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#77#0" expanded="true" />
+                <element signature="n#!!block;n#main#1" expanded="false" />
+                <element signature="n#!!block;n#Callback#0" expanded="false" />
+                <element signature="n#!!block;n#run#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,8 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>selec</find>
-      <find>Get</find>
       <find>Select</find>
       <find>update</find>
       <find>select</find>
@@ -116,6 +116,8 @@
       <find>BookList</find>
       <find>numOpen</find>
       <find>GetLastShortUrl</find>
+      <find>Callback</find>
+      <find>Store</find>
     </findStrings>
     <replaceStrings>
       <replace>str</replace>
@@ -148,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/myweb/views/main/index.xxx" />
-        <option value="$PROJECT_DIR$/project/myweb/main.go" />
         <option value="$PROJECT_DIR$/project/myweb/controllers/default.go" />
         <option value="$PROJECT_DIR$/project/myweb/controllers/user.go" />
         <option value="$PROJECT_DIR$/project/myweb/views/user/index.xxx" />
@@ -165,7 +165,6 @@
         <option value="$PROJECT_DIR$/project/logagent/config.go" />
         <option value="$PROJECT_DIR$/project/logagent/log.go" />
         <option value="$PROJECT_DIR$/config/config_notify.go" />
-        <option value="$PROJECT_DIR$/config/config.go" />
         <option value="$PROJECT_DIR$/project/BeegoShortUrl/main.go" />
         <option value="$PROJECT_DIR$/project/htllo/hello.go" />
         <option value="$PROJECT_DIR$/project/logagent/main.go" />
@@ -199,6 +198,9 @@
         <option value="$PROJECT_DIR$/day13/demo2_rwlock/main.go" />
         <option value="$PROJECT_DIR$/day13/demo2_rlock/rlock.go" />
         <option value="$PROJECT_DIR$/day13/demo1_mutex/main.go" />
+        <option value="$PROJECT_DIR$/config/config.go" />
+        <option value="K:/tearcher/goproject/day13/config_test/main.go" />
+        <option value="$PROJECT_DIR$/day13/demo4_config/config.go" />
       </list>
     </option>
   </component>
@@ -261,6 +263,22 @@
             <path>
               <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
               <item name="transformat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="day13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="transformat" type="462c0819:PsiDirectoryNode" />
+              <item name="day13" type="462c0819:PsiDirectoryNode" />
+              <item name="demo4_config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1050,7 +1068,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="map增删改查" />
     <MESSAGE value="map反转和排序" />
     <MESSAGE value="lock" />
     <MESSAGE value="rlock" />
@@ -1075,7 +1092,8 @@
     <MESSAGE value="log admin project" />
     <MESSAGE value="log collection" />
     <MESSAGE value="整理 日志收集" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理 日志收集" />
+    <MESSAGE value="整理所有练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理所有练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1101,7 +1119,7 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1110,35 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/logagent/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/hh/hello.go" />
-    <entry file="file://$PROJECT_DIR$/project/logagent/ip.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/logtransfer/cnfig.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="76" column="36" lean-forward="false" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/logtransfer/ip.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/logagent/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1305,6 +1294,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,6 +1339,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding>
+            <marker date="1527851286564" expanded="true" signature="708:785" ph="select bookI... book" />
+            <marker date="1527851286564" expanded="true" signature="944:1004" ph="insert into book... " />
+            <marker date="1527851286564" expanded="true" signature="1089:1144" ph="update book... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,14 +1396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day13/demo3_atomic/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day12/demo1_beego/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1417,10 +1404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day13/demo1_mutex/main.go">
+    <entry file="file://$PROJECT_DIR$/config/config.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1432,6 +1419,64 @@
           <folding>
             <marker date="1520173716508" expanded="true" signature="308:366" ph="insert into user_info... " />
             <marker date="1520173716508" expanded="true" signature="514:572" ph="insert into user_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/demo1_mutex/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/demo3_atomic/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config_notify.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://K:/tearcher/goproject/day13/config_test/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!block;n#parse#0" expanded="false" />
+            <element signature="n#!!block;n#GetInt#0" expanded="false" />
+            <element signature="n#!!block;n#GetIntDefault#0" expanded="false" />
+            <element signature="n#!!block;n#GetString#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/demo4_config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#77#0" expanded="true" />
+            <element signature="n#!!block;n#main#1" expanded="false" />
+            <element signature="n#!!block;n#Callback#0" expanded="false" />
+            <element signature="n#!!block;n#run#0" expanded="false" />
           </folding>
         </state>
       </provider>

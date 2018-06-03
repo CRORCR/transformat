@@ -11,6 +11,7 @@ import (
 	"time"
 )
 
+//保存到结构中
 type Config struct {
 	filename       string
 	lastModifyTime int64
@@ -29,7 +30,6 @@ func NewConfig(filename string) (conf *Config, err error) {
 	if err != nil {
 		return
 	}
-
 	conf.rwLock.Lock()
 	conf.data = m
 	conf.rwLock.Unlock()
