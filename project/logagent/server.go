@@ -15,21 +15,26 @@ import (
 type TailObj struct {
 	tail     *tail.Tail
 	secLimit *SecondLimit
-	offset   int64
-
+	//每个tailf记录偏移量
+	offset int64
+	//对应的文件
 	logConf  LogConfig
 	exitChan chan bool
 }
 
+//使用map存储,可以去重
 type TailMgr struct {
 	tailObjMap map[string]*TailObj
 	lock       sync.Mutex
 }
 
+//多少文件就需要多少tailf
 var tailMgr *TailMgr
 
 func RunServer() {
+	//1.创建tailf实例
 	tailMgr = NewTailMgr()
+	//2.拿到处理后的消息
 	tailMgr.process()
 	waitGroup.Wait()
 }
@@ -122,6 +127,7 @@ func (t *TailMgr) AddLogFile(conf LogConfig) (err error) {
 		exitChan: make(chan bool, 1),
 	}
 	t.tailObjMap[conf.LogPath] = tailObj
+	waitGroup.Add(1)
 	//通过tail
 	go tailObj.readLog()
 	return

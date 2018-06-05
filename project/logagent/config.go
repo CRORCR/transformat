@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/astaxie/beego/logs"
 	"strings"
 	"transformat/config"
-
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/logs"
 )
 
 //定义一个结构,接收配置文件的参数
@@ -44,11 +42,12 @@ func initConfig(filename string) (err error) {
 	if err != nil || len(logPath) == 0 {
 		return
 	}
+	//etcd地址可能有多个,用","分隔
 	etcdAddr, err := conf.GetString("etcd_addr")
 	if err != nil || len(logPath) == 0 {
 		return
 	}
-
+	//可能是多个逗号,所以分隔之后,还需要判断长度是不是0
 	arr := strings.Split(etcdAddr, ",")
 	for _, v := range arr {
 		str := strings.TrimSpace(v)

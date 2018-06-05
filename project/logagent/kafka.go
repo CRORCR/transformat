@@ -42,6 +42,7 @@ func NewKafka() (kafka *KafkaSender) {
 		return
 	}
 	kafka.client = asyncclient
+	//开多少线程发送kafka  从配置文件配置
 	for i := 0; i < appConfig.KafkaThreadNum; i++ {
 		go kafka.sendToKafka()
 	}
@@ -51,10 +52,11 @@ func NewKafka() (kafka *KafkaSender) {
 //起多个线程去往kafka发送数据
 func (k *KafkaSender) sendToKafka() {
 	for v := range k.lineChan {
-		//格式化消息
+		//1.格式化消息
 		msg := &sarama.ProducerMessage{}
-		msg.Topic = v.topic
+		msg.Topic = "logagent_log"
 		msg.Value = sarama.StringEncoder(v.line)
+		//2.发送
 		_, _, err := k.client.SendMessage(msg)
 		if err != nil {
 			logs.Error("send message to kafka failed,err:%v\n", err)

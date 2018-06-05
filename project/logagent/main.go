@@ -2,9 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io"
-	"io/ioutil"
-	"time"
 
 	"github.com/astaxie/beego/logs"
 )
