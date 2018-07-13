@@ -7,7 +7,16 @@ var arr = [...]int{0, 1, 2, 3, 4, 5, 6, 7}
 func main() {
 	//sliceDemo()
 	//appendDemo()
-	deleteDemo()
+	//deleteDemo()
+	var a [3]int
+	fmt.Println(a[0])
+	fmt.Println(a[len(a)-1])
+	for i, v := range a {
+		fmt.Println(i, v)
+	}
+	for _, v := range a {
+		fmt.Println(v)
+	}
 }
 
 func deleteDemo() {
