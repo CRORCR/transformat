@@ -1,8 +1,10 @@
 package main
+
 import (
 	"fmt"
 	"github.com/garyburd/redigo/redis"
 )
+
 //Set接口
 func main() {
 	c, err := redis.Dial("tcp", "localhost:6379")
