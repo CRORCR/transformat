@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/framework/beegodemo/models/db.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/config/app.config" />
+    <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="添加测试模板">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day1/demo1calc/test/calc_test.go" afterPath="$PROJECT_DIR$/day1/demo1calc/test/calc_test.go" />
-      <change beforePath="$PROJECT_DIR$/day9/demo3_redis_set/redis.go" afterPath="$PROJECT_DIR$/day9/demo3_redis_set/redis.go" />
-      <change beforePath="$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go" afterPath="$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go" />
-      <change beforePath="$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go" afterPath="$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo1_zero/zero.go" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,102 +29,7 @@
     <favorites_list name="transformat" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo8_pool/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day11/demo1_mysql/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <marker date="1520173527885" expanded="true" signature="434:492" ph="insert into user_info... " />
-                <marker date="1520173527885" expanded="true" signature="592:657" ph="select user_... user_info" />
-                <marker date="1520173527885" expanded="true" signature="731:796" ph="select user_... user_info" />
-                <marker date="1520173527885" expanded="true" signature="868:916" ph="update user_info... " />
-                <marker date="1520173527885" expanded="true" signature="948:985" ph="delete from user_info... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calc_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/demo1calc/test/calc_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo2_redisDial/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo3_redis_set/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day9/demo6_redis_time/redis.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,7 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RegisterBalancer</find>
       <find>DoBalance</find>
       <find>OpenFile</find>
       <find>resp</find>
@@ -173,6 +72,7 @@
       <find>redis.</find>
       <find>mysql</find>
       <find>月</find>
+      <find>calc</find>
     </findStrings>
     <replaceStrings>
       <replace>str</replace>
@@ -206,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/htllo/hello.go" />
         <option value="$PROJECT_DIR$/project/logagent/ip.go" />
         <option value="$PROJECT_DIR$/project/logagent/etcd.go" />
         <option value="$PROJECT_DIR$/project/logtransfer/cnfig.go" />
@@ -257,6 +156,7 @@
         <option value="$PROJECT_DIR$/day9/demo3_redis_set/redis.go" />
         <option value="$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go" />
         <option value="$PROJECT_DIR$/day1/demo1calc/test/calc_test.go" />
+        <option value="$PROJECT_DIR$/basic/demo1_zero/zero.go" />
       </list>
     </option>
   </component>
@@ -312,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,40 +224,6 @@
               <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
               <item name="transformat" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1calc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1calc" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3_time" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
@@ -415,7 +282,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -462,21 +328,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build demo.go">
+  <component name="RunManager" selected="Go Build.go build zero.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="transformat" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$" />
-      <package value="transformat" />
-    </configuration>
-    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="transformat" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/day13/demo/demo.go" />
       <package value="transformat" />
     </configuration>
     <configuration name="go build hh.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -509,6 +367,14 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/selfwork/6jun/learn1/readfile.go" />
+      <package value="transformat" />
+    </configuration>
+    <configuration name="go build zero.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="transformat" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/basic/demo1_zero/zero.go" />
       <package value="transformat" />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -913,12 +779,17 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build demo.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build hh.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build readfile.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build hh.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build readfile.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build zero.go" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build zero.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1117,11 +988,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24644244" sideWeight="0.6132597" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26196638" sideWeight="0.6132597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3130194" sideWeight="0.5025873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44875348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44875348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967659" sideWeight="0.48802948" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3130194" sideWeight="0.49741268" order="9" side_tool="false" content_ui="tabs" />
@@ -1189,11 +1060,36 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="复习" />
     <MESSAGE value="负载均衡" />
     <MESSAGE value="server" />
     <MESSAGE value="panic" />
@@ -1218,7 +1114,8 @@
     <MESSAGE value="自己实现读取配置文件,并支持热加载" />
     <MESSAGE value="kafka练习" />
     <MESSAGE value="beego conf和log组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="beego conf和log组件" />
+    <MESSAGE value="添加测试模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测试模板" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,8 +1150,14 @@
           <line>29</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/basic/demo1_zero/zero.go</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1263,20 +1166,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/config_notify.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://K:/tearcher/goproject/day13/config_test/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://K:/tearcher/goproject/day13/config_test/main.go" />
     <entry file="file://$PROJECT_DIR$/config/config.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1292,13 +1182,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day13/demo9_kafka/kafka.go" />
-    <entry file="file://K:/tearcher/goproject/day13/tailf/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://K:/tearcher/goproject/day13/tailf/main.go" />
     <entry file="file://$PROJECT_DIR$/day13/demo7_tailf/my.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1485,74 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo6_redis_time/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo3_redis_set/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo2_redisDial/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day9/demo8_pool/redis.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/demo1_mysql/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <marker date="1520173527885" expanded="true" signature="434:492" ph="insert into user_info... " />
-            <marker date="1520173527885" expanded="true" signature="592:657" ph="select user_... user_info" />
-            <marker date="1520173527885" expanded="true" signature="731:796" ph="select user_... user_info" />
-            <marker date="1520173527885" expanded="true" signature="868:916" ph="update user_info... " />
-            <marker date="1520173527885" expanded="true" signature="948:985" ph="delete from user_info... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day3/demo3_time/time.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1562,11 +1378,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/demo1calc/test/calc_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/demo1_mysql/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo8_pool/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo2_redisDial/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo3_redis_set/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/demo6_redis_time/redis.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/demo1_zero/zero.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
