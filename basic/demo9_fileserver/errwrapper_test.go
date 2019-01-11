@@ -11,8 +11,7 @@ import (
 	"testing"
 )
 
-func errPanic(_ http.ResponseWriter,
-	_ *http.Request) error {
+func errPanic(_ http.ResponseWriter, _ *http.Request) error {
 	panic(123)
 }
 
