@@ -6,6 +6,7 @@ func main() {
 	//demo()
 	demo2()
 }
+
 func demo() {
 	a := 100
 	var p *int
@@ -23,8 +24,8 @@ func demo2() {
 	//*p = 100
 
 	//1.第一种方式,可以把变量的地址给指针变量
-	var p1 *int
 	str := 123
+	var p1 *int
 	p1 = &str
 
 	//2.使用new创建一个指针才能使用
