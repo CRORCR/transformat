@@ -3,36 +3,1047 @@
   <component name="ChangeListManager">
     <list default="true" id="0b901fed-0543-4255-9b47-478e4c85d559" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/day1/demo1calc/calc.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo1calc/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo1calc/test/calc_test.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo3chan/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo4thread/mian.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo4thread/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day1/demo5_scale/scale.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo10_switch/circle.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo1_const/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo2_data_type/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo2_data_type/weibo.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo3_rand/cube.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo3_rand/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo4_hostname/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo5_init/init.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo5_init/other.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo6_str/rever.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo6_str/strings.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/demo8_scan/jiecheng.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day2/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo4_regexp/demo1.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo4_regexp/demo2.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo5_calc/calc.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo6_map/map.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo7_lock/lock.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day3/demo8_rlock/rlock.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day4/demo1_func/func.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day4/demo2_point/point.go" afterPath="$PROJECT_DIR$/day4/demo2_point/point.go" />
-      <change beforePath="$PROJECT_DIR$/day4/demo6_digui/digui.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/day4/demo7_close/closePackage.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/basic/demo10_basic/calc.go" afterPath="$PROJECT_DIR$/basic/demo10_basic/calc.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo10_basic/triangle_test.go" afterPath="$PROJECT_DIR$/basic/demo10_basic/triangle_test.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo11_length/nonrepeating.go" afterPath="$PROJECT_DIR$/basic/demo11_length/nonrepeating.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo11_length/nonrepeating_test.go" afterPath="$PROJECT_DIR$/basic/demo11_length/nonrepeating_test.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo12_maze/maze.go" afterPath="$PROJECT_DIR$/basic/demo12_maze/maze.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo9_fileserver/errwrapper_test.go" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/errwrapper_test.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo9_fileserver/handler.go" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/handler.go" />
+      <change beforePath="$PROJECT_DIR$/basic/demo9_fileserver/web.go" afterPath="$PROJECT_DIR$/basic/demo9_fileserver/web.go" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" afterPath="$PROJECT_DIR$/config/config.go" />
+      <change beforePath="$PROJECT_DIR$/config/config_notify.go" afterPath="$PROJECT_DIR$/config/config_notify.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/engine/engine.go" afterPath="$PROJECT_DIR$/crawler/engine/engine.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/engine/types.go" afterPath="$PROJECT_DIR$/crawler/engine/types.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/fetcher/fetcher.go" afterPath="$PROJECT_DIR$/crawler/fetcher/fetcher.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/main.go" afterPath="$PROJECT_DIR$/crawler/main.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/model/profile.go" afterPath="$PROJECT_DIR$/crawler/model/profile.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parse/cityList_test.go" afterPath="$PROJECT_DIR$/crawler/zhenai/parse/cityList_test.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parse/citylist.go" afterPath="$PROJECT_DIR$/crawler/zhenai/parse/citylist.go" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parse/profile.go" afterPath="$PROJECT_DIR$/crawler/zhenai/parse/profile.go" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/DT_bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/about-us.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/blog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-fileupload.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-modal.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-responsive.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-responsive1.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-tag.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-toggle-buttons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-tree.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap-wysihtml5.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/brown.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/chosen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/clockface.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/colorpicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/coming-soon.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/datepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/daterangepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/datetimepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/dropzone.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/email.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/error.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/fullcalendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/glyphicons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/grey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/halflings.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/inbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/invoice.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery-ui-1.10.1.custom.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.easy-pie-chart.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.fancybox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.fileupload-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.gritter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.nestable.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.tagsinput.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jquery.ui.slider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/jqvmap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/light.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/lock.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/login-soft.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/multi-select-metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/news.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/pricing-tables.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/profile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/promo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/purple.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/search.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/select2_metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/style-metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/style-non-responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/style-responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/timeline.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/timepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/css/uniform.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/KwPYo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/amazon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/animated-overlay.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/avatar1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/avatar1_small.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/avatar2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/avatar3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/behance.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg-input-focus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg-input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg-opacity.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg-white-lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bg/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/blogger.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/bstree-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/chosen-sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/datatable-row-openclose.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/deviantart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/dribbble.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/dropbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/earth.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/evernote.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fancybox_loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fancybox_overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fancybox_sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/forrst.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/github.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons_halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons_halflings-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons_halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphicons_halflings.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphiconshalflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphiconshalflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphiconshalflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/glyphiconshalflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/googleplus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/gritter-light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/gritter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/hor-menu-search-close-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/hor-menu-search-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/hor-menu-search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/hue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/icon-color-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/icon-color.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/icon-img-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/icon-img-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ie-spacer.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/image1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/image2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/image3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/image4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/image5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/img1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/img1_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/img2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/img3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/img4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/inbox-nav-arrow-blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/instagram.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/item_img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/item_img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/jolicloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/last-fm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/linkedin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/logo-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/logo_azteca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/logo_conquer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/logo_metronic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/menu-toggler.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/overlay-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/photo6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/picasa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/pintrest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-collapse-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-collapse-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-config-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-config-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-expand-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-expand-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-reload-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-reload-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-remove-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/portlet-remove-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_06.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_07.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_08.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_09.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/preview_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/profile-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/profile.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/progressbar.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/remove-icon-small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/saturation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/search-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/select2-spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/select2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/select2x2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sidebar-menu-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sidebar-search-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sidebar-toggler.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/skype.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/social_facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/social_googleplus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/social_linkedin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/social_rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/social_twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sort_asc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sort_asc_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sort_both.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sort_desc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sort_desc_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/spotify.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/spritemap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/spritemap@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/stumbleupon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/switch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/syncfusion-icons-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/syncfusion-icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/tumblr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_222222_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_888888_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/vimeo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/vk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/walmart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/wordpress.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/xing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/yahoo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/image/youtube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/DT_bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/additional-methods.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-colorpicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-datepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-datetimepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-modalmanager.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-rtl.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-tag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-timepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap-wysihtml5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/breakpoints.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/breakpoints.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/calendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/canvas-to-blob.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/charts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/chosen.jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ckeditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/clockface.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/coming-soon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/contact-us.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/daterangepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/dropzone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/excanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/excanvas.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/form-components.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/form-fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/form-samples.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/form-validation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/form-wizard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/fullcalendar.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/gallery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/gmaps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/inbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery-1.10.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery-ui-1.10.1.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.backstretch.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.blockui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.bootpag.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.bootstrap.wizard.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.cookie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.countdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.dataTables.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.dataTables.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.easy-pie-chart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.fancybox.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.fileupload-fp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.fileupload-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.flot.crosshair.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.flot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.flot.pie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.flot.resize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.flot.stack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.gritter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.iframe-transport.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.input-ip-address-control-1.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.inputmask.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.knob.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.multi-select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.nestable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.pulsate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.sparkline.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.tagsinput.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.toggle.buttons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.ui.widget.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.uniform.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.validate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.europe.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.germany.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.russia.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.sampledata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.usa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.vmap.world.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/jquery.xdr-transport.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/load-image.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/lock.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/login-soft.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/maps-google.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/maps-vector.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/portlet-draggable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/respond.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/respond.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/select2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/table-advanced.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/table-editable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/table-managed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/tmpl.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-general.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-jqueryui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-modals.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-nestable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-sliders.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/ui-tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/media/js/wysihtml5-0.3.0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/charts.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email5.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/email6.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_404_option1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_404_option2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_404_option3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_500_option1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_500_option2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_faq.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_image_manager.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_invoice.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_lock.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_pricing_table.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_profile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/extra_search.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_dropzone.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_fileupload.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_layout.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_samples.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_validation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/form_wizard.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/inbox.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/inbox_inbox.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_ajax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_ajax_content_2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_ajax_content_3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_blank_page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_boxed_not_responsive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_boxed_page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_email.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_horizontal_menu1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_horizontal_menu2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_horizontal_sidebar_menu.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_promo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/layout_sidebar_closed.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/login_soft.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/maps_google.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/maps_vector.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/DT_bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/about-us.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/blog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-fileupload.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-modal.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-responsive.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-responsive1.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-tag.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-toggle-buttons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-tree.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap-wysihtml5.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/brown.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/chosen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/clockface.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/colorpicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/coming-soon.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/datepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/daterangepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/datetimepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/dropzone.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/email.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/error.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/fullcalendar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/glyphicons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/grey.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/halflings.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/inbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/invoice.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery-ui-1.10.1.custom.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.easy-pie-chart.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.fancybox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.fileupload-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.gritter.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.nestable.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.tagsinput.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jquery.ui.slider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/jqvmap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/light.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/lock.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/login-soft.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/multi-select-metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/news.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/pricing-tables.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/profile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/promo.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/purple.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/search.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/select2_metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/style-metro.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/style-non-responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/style-responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/timeline.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/timepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/css/uniform.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/KwPYo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/alpha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/amazon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/animated-overlay.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/avatar1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/avatar1_small.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/avatar2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/avatar3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/behance.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg-input-focus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg-input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg-opacity.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg-white-lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bg/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/blogger.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/bstree-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/chosen-sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/datatable-row-openclose.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/deviantart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/dribbble.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/dropbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/earth.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/evernote.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fancybox_loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fancybox_overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fancybox_sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/forrst.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/github.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons_halflings-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons_halflings-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons_halflings.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphicons_halflings.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphiconshalflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphiconshalflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphiconshalflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/glyphiconshalflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/googleplus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/gritter-light.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/gritter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/hor-menu-search-close-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/hor-menu-search-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/hor-menu-search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/hue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/icon-color-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/icon-color.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/icon-img-down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/icon-img-up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ie-spacer.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/image1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/image2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/image3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/image4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/image5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/img1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/img1_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/img2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/img3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/img4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/inbox-nav-arrow-blue.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/instagram.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/item_img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/item_img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/jolicloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/last-fm.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/linkedin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/logo-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/logo_azteca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/logo_conquer.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/logo_metronic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/menu-toggler.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/overlay-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/photo6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/picasa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/pintrest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-collapse-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-collapse-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-config-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-config-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-expand-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-expand-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-reload-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-reload-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-remove-icon-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/portlet-remove-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_06.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_07.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_08.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_09.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/preview_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/profile-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/profile.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/progressbar.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/remove-icon-small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/saturation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/search-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/select2-spinner.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/select2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/select2x2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sidebar-menu-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sidebar-search-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sidebar-toggler.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/skype.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/social_facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/social_googleplus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/social_linkedin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/social_rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/social_twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sort_asc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sort_asc_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sort_both.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sort_desc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sort_desc_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/spotify.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/sprite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/spritemap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/spritemap@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/stumbleupon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/switch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/syncfusion-icons-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/syncfusion-icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/tumblr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_222222_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_228ef1_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_888888_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/vimeo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/vk.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/walmart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/wordpress.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/xing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/yahoo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/image/youtube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/DT_bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/additional-methods.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-colorpicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-datepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-datetimepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-modalmanager.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-rtl.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-tag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-timepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap-wysihtml5.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/breakpoints.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/breakpoints.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/calendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/canvas-to-blob.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/charts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/chosen.jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ckeditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/clockface.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/coming-soon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/contact-us.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/daterangepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/dropzone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/excanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/excanvas.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/form-components.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/form-fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/form-samples.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/form-validation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/form-wizard.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/fullcalendar.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/gallery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/gmaps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/inbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery-1.10.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery-ui-1.10.1.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.backstretch.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.blockui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.bootpag.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.bootstrap.wizard.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.cookie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.countdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.dataTables.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.dataTables.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.easy-pie-chart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.fancybox.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.fileupload-fp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.fileupload-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.flot.crosshair.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.flot.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.flot.pie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.flot.resize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.flot.stack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.gritter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.iframe-transport.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.input-ip-address-control-1.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.inputmask.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.knob.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.multi-select.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.nestable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.pulsate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.sparkline.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.tagsinput.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.toggle.buttons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.ui.widget.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.uniform.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.validate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.europe.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.germany.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.russia.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.sampledata.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.usa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.vmap.world.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/jquery.xdr-transport.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/load-image.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/lock.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/login-soft.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/maps-google.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/maps-vector.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/portlet-draggable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/respond.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/respond.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/select2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/table-advanced.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/table-editable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/table-managed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/tmpl.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-general.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-jqueryui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-modals.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-nestable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-sliders.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/ui-tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/media/js/wysihtml5-0.3.0.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_blog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_blog_item.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_calendar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_coming_soon.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_contact.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_news.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_news_item.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/page_timeline.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/portlet_draggable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/portlet_general.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/source.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/table_advanced.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/table_basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/table_editable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/table_managed.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/table_responsive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_buttons.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_general.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_jqueryui.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_modals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_nestable.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_sliders.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_tabs_accordions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_tiles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo10_fileServer/views/ui_typography.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo1_baidu/baidu.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo2_http/http.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo3_baidu/baidu.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo4_head/head.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo5_form/form.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo7_format/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo7_format/temp.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo8_range/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo8_range/range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo9_static/static.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day10/demo9_static/static/hello.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day11/demo1_mysql/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day11/demo2_transaction/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo10_beegoConf/confoig.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo11_log/log.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo1_mutex/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo2_pk/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo2_rlock/rlock.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo3_atomic/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo4_config/config.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo4_config/config.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo7_tailf/demo7_tailf.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo7_tailf/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo7_tailf/my.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo8_conf/demo8_conf.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo8_conf/logcollect.conf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo8_conf/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/demo9_kafka/kafka.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day13/mutex/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo1_closure/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo1_context/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo2_timeout/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo2_withvalue/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo3-context/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo3_etcd/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo3_secinfo/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo4_etcd/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo5-watch/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo5_etcd/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo6_sarama/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo6_watch/demo6_watch.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day14/demo6_watch/watch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day4/demo2_point/point.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day4/demo3_goto/demo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day4/demo4_panic/panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day4/demo5_new_make/NewAndMake.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo1_extendFunc/extendFunc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo1_homework/homework.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo1_quickSort/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo1_struct/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo2_struct/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo3_ract/ract.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo3_struct/struct.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo4_list/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/demo6_tag/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/school/data.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/school/init.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day5/school/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo1_animal/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo1_inter_animal/animalmain.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo1_inter_animal/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_Anonymous_field/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_phone/alipay.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_phone/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_phone/pay.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_phone/phone.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo2_phone/weixin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo3_interface_nest/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo4_justify/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo5_interface/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo6_balance/balance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo6_balance/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo6_balance/random.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo6_balance/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/demo6_balance/round.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/reflect/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/reflect/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/reflect_struct/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/schoolSearch/init.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/schoolSearch/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/schoolSearch/model.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day6/trie.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo10_gzip/gzip.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo11_writer/writer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo12_copy/copy.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo13_flag/flag.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo14_json/json.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo15_panic/panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo16_panic/panic.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/balance/balance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/balance/instance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/balance/mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/balance/random.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/balance/roundrobin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/main/hash.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_balance/main/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_myRead/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_sort/mian.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo1_sort/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo2_sort/bubble.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo2_sort/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo3-scan/scan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo4_bufio/bufio.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo4_bufio/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo5_read/read.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo6_stat/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo6_teater_stat/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo8_read/readfile.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/demo8_read/readme.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day7/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo10_recover/recover.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo11_test/calc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo11_test/test/calc_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo12_log/log.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo13_out20/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo1_goroutevar/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo1_waitGroup/wait.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo2_chanClose/close.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo2_channel/channel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo2_cpu/mian.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo4_wait/zhihou.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo5_chan/chan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo5_chan/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo5_goroute/goroute.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo7_unknow/demo7_unknow" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo7_unknow/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo8_ticker/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day8/demo9_queryDB/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/client/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/proto/proto.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/server/conn_mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/server/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/chatRoom/server/server.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo1_client/client.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo1_client/server.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo2_redisDial/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo3_redis_set/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo4_redis_Hash/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo5_redis_mset/Mset.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo6_redis_time/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo7_redis_lpush/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/demo8_pool/redis.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/day9/readme.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/framework/beegodemo/models/db.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/conf/app.conf" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/conf/app.conf" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/controllers/default.go" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/controllers/default.go" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/controllers/short_url.go" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/controllers/short_url.go" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/main.go" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/routers/router.go" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/routers/router.go" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/static/js/reload.min.js" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/static/js/reload.min.js" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/tests/default_test.go" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/tests/default_test.go" />
+      <change beforePath="$PROJECT_DIR$/project/BeegoShortUrl/views/index.tpl" afterPath="$PROJECT_DIR$/project/BeegoShortUrl/views/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/api/errorCode.go" afterPath="$PROJECT_DIR$/project/BookMgr/api/errorCode.go" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/Book.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/Book.go" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/BookMgr.go" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/StuMgr.go" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/Student.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/Student.go" />
+      <change beforePath="$PROJECT_DIR$/project/BookMgr/logic/init.go" afterPath="$PROJECT_DIR$/project/BookMgr/logic/init.go" />
+      <change beforePath="$PROJECT_DIR$/project/ShortUrl/client/main.go" afterPath="$PROJECT_DIR$/project/ShortUrl/client/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/ShortUrl/logic/logic.go" afterPath="$PROJECT_DIR$/project/ShortUrl/logic/logic.go" />
+      <change beforePath="$PROJECT_DIR$/project/ShortUrl/model/modle.go" afterPath="$PROJECT_DIR$/project/ShortUrl/model/modle.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/conf/app.conf" afterPath="$PROJECT_DIR$/project/logadmin/conf/app.conf" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/controllers/default.go" afterPath="$PROJECT_DIR$/project/logadmin/controllers/default.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/controllers/logController.go" afterPath="$PROJECT_DIR$/project/logadmin/controllers/logController.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/main.go" afterPath="$PROJECT_DIR$/project/logadmin/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/models/app.go" afterPath="$PROJECT_DIR$/project/logadmin/models/app.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/models/app_test.go" afterPath="$PROJECT_DIR$/project/logadmin/models/app_test.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/routers/router.go" afterPath="$PROJECT_DIR$/project/logadmin/routers/router.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/static/js/reload.min.js" afterPath="$PROJECT_DIR$/project/logadmin/static/js/reload.min.js" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/tests/default_test.go" afterPath="$PROJECT_DIR$/project/logadmin/tests/default_test.go" />
+      <change beforePath="$PROJECT_DIR$/project/logadmin/views/index.tpl" afterPath="$PROJECT_DIR$/project/logadmin/views/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/config.go" afterPath="$PROJECT_DIR$/project/logagent/config.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/etcd.go" afterPath="$PROJECT_DIR$/project/logagent/etcd.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/ip.go" afterPath="$PROJECT_DIR$/project/logagent/ip.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/kafka.go" afterPath="$PROJECT_DIR$/project/logagent/kafka.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/limit.go" afterPath="$PROJECT_DIR$/project/logagent/limit.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/log.go" afterPath="$PROJECT_DIR$/project/logagent/log.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/logs/logagent.log" afterPath="$PROJECT_DIR$/project/logagent/logs/logagent.log" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/main.go" afterPath="$PROJECT_DIR$/project/logagent/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/logagent/server.go" afterPath="$PROJECT_DIR$/project/logagent/server.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/cnfig.go" afterPath="$PROJECT_DIR$/project/logtransfer/cnfig.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/es.go" afterPath="$PROJECT_DIR$/project/logtransfer/es.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/etcd.go" afterPath="$PROJECT_DIR$/project/logtransfer/etcd.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/ip.go" afterPath="$PROJECT_DIR$/project/logtransfer/ip.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/kafka.go" afterPath="$PROJECT_DIR$/project/logtransfer/kafka.go" />
+      <change beforePath="$PROJECT_DIR$/project/logtransfer/main.go" afterPath="$PROJECT_DIR$/project/logtransfer/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/conf/app.conf" afterPath="$PROJECT_DIR$/project/myweb/conf/app.conf" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/controllers/default.go" afterPath="$PROJECT_DIR$/project/myweb/controllers/default.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/controllers/user.go" afterPath="$PROJECT_DIR$/project/myweb/controllers/user.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/main.go" afterPath="$PROJECT_DIR$/project/myweb/main.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/routers/router.go" afterPath="$PROJECT_DIR$/project/myweb/routers/router.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/static/js/reload.min.js" afterPath="$PROJECT_DIR$/project/myweb/static/js/reload.min.js" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/tests/default_test.go" afterPath="$PROJECT_DIR$/project/myweb/tests/default_test.go" />
+      <change beforePath="$PROJECT_DIR$/project/myweb/views/index.tpl" afterPath="$PROJECT_DIR$/project/myweb/views/index.tpl" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/config.go" afterPath="$PROJECT_DIR$/seckill/proxy/config.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/controller/skill.go" afterPath="$PROJECT_DIR$/seckill/proxy/controller/skill.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/log.go" afterPath="$PROJECT_DIR$/seckill/proxy/log.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/logs/proxy.log" afterPath="$PROJECT_DIR$/seckill/proxy/logs/proxy.log" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/main.go" afterPath="$PROJECT_DIR$/seckill/proxy/main.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/model/data.go" afterPath="$PROJECT_DIR$/seckill/proxy/model/data.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/model/etcd.go" afterPath="$PROJECT_DIR$/seckill/proxy/model/etcd.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/model/process.go" afterPath="$PROJECT_DIR$/seckill/proxy/model/process.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/model/redis.go" afterPath="$PROJECT_DIR$/seckill/proxy/model/redis.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/model/service.go" afterPath="$PROJECT_DIR$/seckill/proxy/model/service.go" />
+      <change beforePath="$PROJECT_DIR$/seckill/proxy/route/route.go" afterPath="$PROJECT_DIR$/seckill/proxy/route/route.go" />
+      <change beforePath="$PROJECT_DIR$/selfwork/6jun/learn2/readfile.go" afterPath="$PROJECT_DIR$/selfwork/6jun/learn2/readfile.go" />
+      <change beforePath="$PROJECT_DIR$/selfwork/6jun/learn3/wait.go" afterPath="$PROJECT_DIR$/selfwork/6jun/learn3/wait.go" />
+      <change beforePath="$PROJECT_DIR$/selfwork/6jun/learn4/chan.go" afterPath="$PROJECT_DIR$/selfwork/6jun/learn4/chan.go" />
+      <change beforePath="$PROJECT_DIR$/selfwork/6jun/learn5/wait.go" afterPath="$PROJECT_DIR$/selfwork/6jun/learn5/wait.go" />
+      <change beforePath="$PROJECT_DIR$/selfwork/6jun/learn6/main.go" afterPath="$PROJECT_DIR$/selfwork/6jun/learn6/main.go" />
+      <change beforePath="$PROJECT_DIR$/shortUrl/api/api.go" afterPath="$PROJECT_DIR$/shortUrl/api/api.go" />
+      <change beforePath="$PROJECT_DIR$/shortUrl/client/client.go" afterPath="$PROJECT_DIR$/shortUrl/client/client.go" />
+      <change beforePath="$PROJECT_DIR$/shortUrl/logic/logic.go" afterPath="$PROJECT_DIR$/shortUrl/logic/logic.go" />
+      <change beforePath="$PROJECT_DIR$/shortUrl/model/data.go" afterPath="$PROJECT_DIR$/shortUrl/model/data.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +1069,7 @@
     <favorites_list name="transformat" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -254,30 +1265,6 @@
               <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
               <item name="transformat" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="demo9_fileserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_balance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="transformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="transformat" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1_balance" type="462c0819:PsiDirectoryNode" />
-              <item name="balance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -994,12 +1981,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28460544" sideWeight="0.6132597" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28913325" sideWeight="0.6132597" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3130194" sideWeight="0.5025873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11634349" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28808865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28808865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967659" sideWeight="0.48802948" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3130194" sideWeight="0.49741268" order="9" side_tool="false" content_ui="tabs" />
@@ -1024,6 +2010,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="70" y="465" width="1416" height="250" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11634349" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1161,43 +2148,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/demo3_map/map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/demo5_inter/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/demo5_inter/mock/Retriener.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/demo8_fileserver/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/demo3_map/map.go" />
+    <entry file="file://$PROJECT_DIR$/basic/demo5_inter/main.go" />
+    <entry file="file://$PROJECT_DIR$/basic/demo5_inter/mock/Retriener.go" />
+    <entry file="file://$PROJECT_DIR$/basic/demo8_fileserver/main.go" />
     <entry file="file://E:/gide/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="2719" column="0" lean-forward="false" selection-start-line="2719" selection-start-column="0" selection-end-line="2719" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,7 +2163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,7 +2170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-795">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +2177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +2184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +2191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +2198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-817">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +2205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2247">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +2212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +2219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,7 +2226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,247 +2233,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo3chan/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo4thread/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo4thread/mian.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo5_scale/scale.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo1calc/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo1calc/calc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/demo1calc/test/calc_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo1_const/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo2_data_type/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo2_data_type/weibo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo3_rand/cube.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo3_rand/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo4_hostname/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo5_init/init.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo6_str/rever.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo8_scan/jiecheng.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo10_switch/circle.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day2/demo6_str/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo4_regexp/demo1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo4_regexp/demo2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo5_calc/calc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo6_map/map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/demo3chan/main.go" />
+    <entry file="file://$PROJECT_DIR$/day1/demo4thread/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/day1/demo4thread/mian.go" />
+    <entry file="file://$PROJECT_DIR$/day1/demo5_scale/scale.go" />
+    <entry file="file://$PROJECT_DIR$/day1/demo1calc/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/day1/demo1calc/calc.go" />
+    <entry file="file://$PROJECT_DIR$/day1/demo1calc/test/calc_test.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo1_const/main.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo2_data_type/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/day2/demo2_data_type/weibo.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo3_rand/cube.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo3_rand/main.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo4_hostname/main.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo5_init/init.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo6_str/rever.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo8_scan/jiecheng.go" />
+    <entry file="file://$PROJECT_DIR$/day2/demo10_switch/circle.go" />
+    <entry file="file://$PROJECT_DIR$/day2/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/day2/demo6_str/strings.go" />
+    <entry file="file://$PROJECT_DIR$/day3/demo4_regexp/demo1.go" />
+    <entry file="file://$PROJECT_DIR$/day3/demo4_regexp/demo2.go" />
+    <entry file="file://$PROJECT_DIR$/day3/demo5_calc/calc.go" />
+    <entry file="file://$PROJECT_DIR$/day3/demo6_map/map.go" />
     <entry file="file://$PROJECT_DIR$/day7/demo1_balance/balance/balance.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo7_lock/lock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day3/demo8_rlock/rlock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/demo1_func/func.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/demo6_digui/digui.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day4/demo7_close/closePackage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day3/demo7_lock/lock.go" />
+    <entry file="file://$PROJECT_DIR$/day3/demo8_rlock/rlock.go" />
+    <entry file="file://$PROJECT_DIR$/day4/demo1_func/func.go" />
+    <entry file="file://$PROJECT_DIR$/day4/demo6_digui/digui.go" />
+    <entry file="file://$PROJECT_DIR$/day4/demo7_close/closePackage.go" />
     <entry file="file://$PROJECT_DIR$/day5/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1848">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,7 +2282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1541,7 +2289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,7 +2296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,7 +2303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +2310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
